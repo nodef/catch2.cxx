@@ -1,0 +1,29 @@
+{
+  "name": "catch2.cxx",
+  "version": "3.11.1",
+  "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch); Martin Hořeňovský (2010).",
+  "keywords": [
+    "c",
+    "library",
+    "testing",
+    "test-framework",
+    "unit-test",
+    "tdd",
+    "bdd",
+    "catch2"
+  ],
+  "homepage": "https://github.com/nodef/catch2.cxx#readme",
+  "bugs": {
+    "url": "https://github.com/nodef/catch2.cxx/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/catch2.cxx.git"
+  },
+  "license": "BSL-1.0",
+  "author": "wolfram77@gmail.com",
+  "main": "catch2.hpp",
+  "scripts": {
+    "test": "bash build.sh test"
+  }
+}

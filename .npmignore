@@ -1,0 +1,8 @@
+# Build files
+.build/
+build.sh
+build.js
+
+# Example artifacts
+examples/
+*.exe
