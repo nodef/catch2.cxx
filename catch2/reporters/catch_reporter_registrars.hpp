@@ -1,4 +1,3 @@
-
 //              Copyright Catch2 Authors
 // Distributed under the Boost Software License, Version 1.0.
 //   (See accompanying file LICENSE.txt or copy at
@@ -131,3 +130,48 @@ namespace Catch {
 #endif // CATCH_CONFIG_DISABLE
 
 #endif // CATCH_REPORTER_REGISTRARS_HPP_INCLUDED
+
+
+
+// BEGIN Amalgamated content from catch_reporter_registrars.cpp (@wolfram77)
+#ifndef CATCH_REPORTER_REGISTRARS_CPP_INCLUDED
+#define CATCH_REPORTER_REGISTRARS_CPP_INCLUDED
+#ifdef CATCH2_IMPLEMENTATION
+//              Copyright Catch2 Authors
+// Distributed under the Boost Software License, Version 1.0.
+//   (See accompanying file LICENSE.txt or copy at
+//        https://www.boost.org/LICENSE_1_0.txt)
+
+// SPDX-License-Identifier: BSL-1.0
+
+// #include "catch_reporter_registrars.hpp" // Disable self-include (@wolfram77)  // Adjust to relative path (@wolfram77)
+
+#include "../interfaces/catch_interfaces_registry_hub.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+
+namespace Catch {
+    namespace Detail {
+
+        void registerReporterImpl( std::string const& name,
+                                   IReporterFactoryPtr reporterPtr ) {
+            CATCH_TRY {
+                getMutableRegistryHub().registerReporter(
+                    name, CATCH_MOVE( reporterPtr ) );
+            }
+            CATCH_CATCH_ALL {
+                // Do not throw when constructing global objects, instead
+                // register the exception to be processed later
+                getMutableRegistryHub().registerStartupException();
+            }
+        }
+
+        void registerListenerImpl( Detail::unique_ptr<EventListenerFactory> listenerFactory ) {
+            getMutableRegistryHub().registerListener( CATCH_MOVE(listenerFactory) );
+        }
+
+
+    } // namespace Detail
+} // namespace Catch
+#endif // CATCH2_IMPLEMENTATION
+#endif // CATCH_REPORTER_REGISTRARS_CPP_INCLUDED
+// END Amalgamated content from catch_reporter_registrars.cpp (@wolfram77)

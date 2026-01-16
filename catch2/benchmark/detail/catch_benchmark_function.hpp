@@ -1,4 +1,3 @@
-
 //              Copyright Catch2 Authors
 // Distributed under the Boost Software License, Version 1.0.
 //   (See accompanying file LICENSE.txt or copy at
@@ -85,3 +84,35 @@ namespace Catch {
 } // namespace Catch
 
 #endif // CATCH_BENCHMARK_FUNCTION_HPP_INCLUDED
+
+
+
+// BEGIN Amalgamated content from catch_benchmark_function.cpp (@wolfram77)
+#ifndef CATCH_BENCHMARK_FUNCTION_CPP_INCLUDED
+#define CATCH_BENCHMARK_FUNCTION_CPP_INCLUDED
+#ifdef CATCH2_IMPLEMENTATION
+//              Copyright Catch2 Authors
+// Distributed under the Boost Software License, Version 1.0.
+//   (See accompanying file LICENSE.txt or copy at
+//        https://www.boost.org/LICENSE_1_0.txt)
+
+// SPDX-License-Identifier: BSL-1.0
+
+// #include "catch_benchmark_function.hpp" // Disable self-include (@wolfram77)  // Adjust to relative path (@wolfram77)
+
+namespace Catch {
+    namespace Benchmark {
+        namespace Detail {
+            struct do_nothing {
+                void operator()() const {}
+            };
+
+            BenchmarkFunction::callable::~callable() = default;
+            BenchmarkFunction::BenchmarkFunction():
+                f( new model<do_nothing>{ {} } ){}
+        } // namespace Detail
+    } // namespace Benchmark
+} // namespace Catch
+#endif // CATCH2_IMPLEMENTATION
+#endif // CATCH_BENCHMARK_FUNCTION_CPP_INCLUDED
+// END Amalgamated content from catch_benchmark_function.cpp (@wolfram77)

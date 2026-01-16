@@ -1,4 +1,3 @@
-
 //              Copyright Catch2 Authors
 // Distributed under the Boost Software License, Version 1.0.
 //   (See accompanying file LICENSE.txt or copy at
@@ -63,3 +62,43 @@ namespace Catch {
 } // namespace Catch
 
 #endif // CATCH_RUN_FOR_AT_LEAST_HPP_INCLUDED
+
+
+
+// BEGIN Amalgamated content from catch_run_for_at_least.cpp (@wolfram77)
+#ifndef CATCH_RUN_FOR_AT_LEAST_CPP_INCLUDED
+#define CATCH_RUN_FOR_AT_LEAST_CPP_INCLUDED
+#ifdef CATCH2_IMPLEMENTATION
+//              Copyright Catch2 Authors
+// Distributed under the Boost Software License, Version 1.0.
+//   (See accompanying file LICENSE.txt or copy at
+//        https://www.boost.org/LICENSE_1_0.txt)
+
+// SPDX-License-Identifier: BSL-1.0
+
+// #include "catch_run_for_at_least.hpp" // Disable self-include (@wolfram77)  // Adjust to relative path (@wolfram77)
+#include "../../internal/catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+
+#include <exception>
+
+namespace Catch {
+    namespace Benchmark {
+        namespace Detail {
+            struct optimized_away_error : std::exception {
+                const char* what() const noexcept override;
+            };
+
+            const char* optimized_away_error::what() const noexcept {
+                return "could not measure benchmark, maybe it was optimized away";
+            }
+
+            void throw_optimized_away_error() {
+                Catch::throw_exception(optimized_away_error{});
+            }
+
+        } // namespace Detail
+    } // namespace Benchmark
+} // namespace Catch
+#endif // CATCH2_IMPLEMENTATION
+#endif // CATCH_RUN_FOR_AT_LEAST_CPP_INCLUDED
+// END Amalgamated content from catch_run_for_at_least.cpp (@wolfram77)

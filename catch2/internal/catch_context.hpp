@@ -1,4 +1,3 @@
-
 //              Copyright Catch2 Authors
 // Distributed under the Boost Software License, Version 1.0.
 //   (See accompanying file LICENSE.txt or copy at
@@ -45,3 +44,36 @@ namespace Catch {
 }
 
 #endif // CATCH_CONTEXT_HPP_INCLUDED
+
+
+
+// BEGIN Amalgamated content from catch_context.cpp (@wolfram77)
+#ifndef CATCH_CONTEXT_CPP_INCLUDED
+#define CATCH_CONTEXT_CPP_INCLUDED
+#ifdef CATCH2_IMPLEMENTATION
+//              Copyright Catch2 Authors
+// Distributed under the Boost Software License, Version 1.0.
+//   (See accompanying file LICENSE.txt or copy at
+//        https://www.boost.org/LICENSE_1_0.txt)
+
+// SPDX-License-Identifier: BSL-1.0
+// #include "catch_context.hpp" // Disable self-include (@wolfram77)  // Adjust to relative path (@wolfram77)
+#include "catch_random_number_generator.hpp"  // Adjust to relative path (@wolfram77)
+
+namespace Catch {
+
+    Context Context::currentContext;
+
+    Context& getCurrentMutableContext() {
+        return Context::currentContext;
+    }
+
+    SimplePcg32& sharedRng() {
+        static SimplePcg32 s_rng;
+        return s_rng;
+    }
+
+}
+#endif // CATCH2_IMPLEMENTATION
+#endif // CATCH_CONTEXT_CPP_INCLUDED
+// END Amalgamated content from catch_context.cpp (@wolfram77)

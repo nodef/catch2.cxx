@@ -1,4 +1,3 @@
-
 //              Copyright Catch2 Authors
 // Distributed under the Boost Software License, Version 1.0.
 //   (See accompanying file LICENSE.txt or copy at
@@ -86,3 +85,32 @@ namespace Catch {
 
 
 #endif // CATCH_TRANSLATE_EXCEPTION_HPP_INCLUDED
+
+
+
+// BEGIN Amalgamated content from catch_translate_exception.cpp (@wolfram77)
+#ifndef CATCH_TRANSLATE_EXCEPTION_CPP_INCLUDED
+#define CATCH_TRANSLATE_EXCEPTION_CPP_INCLUDED
+#ifdef CATCH2_IMPLEMENTATION
+//              Copyright Catch2 Authors
+// Distributed under the Boost Software License, Version 1.0.
+//   (See accompanying file LICENSE.txt or copy at
+//        https://www.boost.org/LICENSE_1_0.txt)
+
+// SPDX-License-Identifier: BSL-1.0
+
+// #include "catch_translate_exception.hpp" // Disable self-include (@wolfram77)  // Adjust to relative path (@wolfram77)
+#include "interfaces/catch_interfaces_registry_hub.hpp"  // Adjust to relative path (@wolfram77)
+
+namespace Catch {
+    namespace Detail {
+        void registerTranslatorImpl(
+            Detail::unique_ptr<IExceptionTranslator>&& translator ) {
+            getMutableRegistryHub().registerTranslator(
+                CATCH_MOVE( translator ) );
+        }
+    } // namespace Detail
+} // namespace Catch
+#endif // CATCH2_IMPLEMENTATION
+#endif // CATCH_TRANSLATE_EXCEPTION_CPP_INCLUDED
+// END Amalgamated content from catch_translate_exception.cpp (@wolfram77)

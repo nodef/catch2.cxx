@@ -1,4 +1,3 @@
-
 //              Copyright Catch2 Authors
 // Distributed under the Boost Software License, Version 1.0.
 //   (See accompanying file LICENSE.txt or copy at
@@ -25,3 +24,28 @@ namespace Catch {
 }
 
 #endif // CATCH_ERRNO_GUARD_HPP_INCLUDED
+
+
+
+// BEGIN Amalgamated content from catch_errno_guard.cpp (@wolfram77)
+#ifndef CATCH_ERRNO_GUARD_CPP_INCLUDED
+#define CATCH_ERRNO_GUARD_CPP_INCLUDED
+#ifdef CATCH2_IMPLEMENTATION
+//              Copyright Catch2 Authors
+// Distributed under the Boost Software License, Version 1.0.
+//   (See accompanying file LICENSE.txt or copy at
+//        https://www.boost.org/LICENSE_1_0.txt)
+
+// SPDX-License-Identifier: BSL-1.0
+
+// #include "catch_errno_guard.hpp" // Disable self-include (@wolfram77)  // Adjust to relative path (@wolfram77)
+
+#include <cerrno>
+
+namespace Catch {
+        ErrnoGuard::ErrnoGuard():m_oldErrno(errno){}
+        ErrnoGuard::~ErrnoGuard() { errno = m_oldErrno; }
+}
+#endif // CATCH2_IMPLEMENTATION
+#endif // CATCH_ERRNO_GUARD_CPP_INCLUDED
+// END Amalgamated content from catch_errno_guard.cpp (@wolfram77)

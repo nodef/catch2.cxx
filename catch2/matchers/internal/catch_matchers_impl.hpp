@@ -1,4 +1,3 @@
-
 //              Copyright Catch2 Authors
 // Distributed under the Boost Software License, Version 1.0.
 //   (See accompanying file LICENSE.txt or copy at
@@ -107,3 +106,37 @@ namespace Catch {
 
 
 #endif // CATCH_MATCHERS_IMPL_HPP_INCLUDED
+
+
+
+// BEGIN Amalgamated content from catch_matchers_impl.cpp (@wolfram77)
+#ifndef CATCH_MATCHERS_IMPL_CPP_INCLUDED
+#define CATCH_MATCHERS_IMPL_CPP_INCLUDED
+#ifdef CATCH2_IMPLEMENTATION
+//              Copyright Catch2 Authors
+// Distributed under the Boost Software License, Version 1.0.
+//   (See accompanying file LICENSE.txt or copy at
+//        https://www.boost.org/LICENSE_1_0.txt)
+
+// SPDX-License-Identifier: BSL-1.0
+
+// #include "catch_matchers_impl.hpp" // Disable self-include (@wolfram77)  // Adjust to relative path (@wolfram77)
+#include "../catch_matchers.hpp"  // Adjust to relative path (@wolfram77)
+#include "../../interfaces/catch_interfaces_registry_hub.hpp"  // Adjust to relative path (@wolfram77)
+#include "../../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
+
+namespace Catch {
+
+    // This is the general overload that takes a any string matcher
+    // There is another overload, in catch_assertionhandler.h/.cpp, that only takes a string and infers
+    // the Equals matcher (so the header does not mention matchers)
+    void handleExceptionMatchExpr( AssertionHandler& handler, StringMatcher const& matcher ) {
+        std::string exceptionMessage = Catch::translateActiveException();
+        MatchExpr<std::string, StringMatcher const&> expr( CATCH_MOVE(exceptionMessage), matcher );
+        handler.handleExpr( expr );
+    }
+
+} // namespace Catch
+#endif // CATCH2_IMPLEMENTATION
+#endif // CATCH_MATCHERS_IMPL_CPP_INCLUDED
+// END Amalgamated content from catch_matchers_impl.cpp (@wolfram77)

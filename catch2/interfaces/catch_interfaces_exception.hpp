@@ -1,4 +1,3 @@
-
 //              Copyright Catch2 Authors
 // Distributed under the Boost Software License, Version 1.0.
 //   (See accompanying file LICENSE.txt or copy at
@@ -34,3 +33,26 @@ namespace Catch {
 } // namespace Catch
 
 #endif // CATCH_INTERFACES_EXCEPTION_HPP_INCLUDED
+
+
+
+// BEGIN Amalgamated content from catch_interfaces_exception.cpp (@wolfram77)
+#ifndef CATCH_INTERFACES_EXCEPTION_CPP_INCLUDED
+#define CATCH_INTERFACES_EXCEPTION_CPP_INCLUDED
+#ifdef CATCH2_IMPLEMENTATION
+//              Copyright Catch2 Authors
+// Distributed under the Boost Software License, Version 1.0.
+//   (See accompanying file LICENSE.txt or copy at
+//        https://www.boost.org/LICENSE_1_0.txt)
+
+// SPDX-License-Identifier: BSL-1.0
+
+// #include "catch_interfaces_exception.hpp" // Disable self-include (@wolfram77)  // Adjust to relative path (@wolfram77)
+
+namespace Catch {
+    IExceptionTranslator::~IExceptionTranslator() = default;
+    IExceptionTranslatorRegistry::~IExceptionTranslatorRegistry() = default;
+}
+#endif // CATCH2_IMPLEMENTATION
+#endif // CATCH_INTERFACES_EXCEPTION_CPP_INCLUDED
+// END Amalgamated content from catch_interfaces_exception.cpp (@wolfram77)
