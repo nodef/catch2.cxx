@@ -2,11 +2,11 @@
 
 <table width="100%">
   <tr>
-    <td align="center" width="50%"><img src="/data/artwork/catch2-logo-full-with-background.svg" width="100%"></td>
+    <td align="center" width="50%"><img src="https://github.com/catchorg/Catch2/blob/devel/data/artwork/catch2-logo-full-with-background.svg" width="100%"></td>
     <td align="center" width="50%">
       <figure>
         <figcaption>Special thanks to:</figcaption>
-        <a href="https://tuple.app/catch2"><img src="/data/sponsors/github_repo_sponsorship.png" width="100%"></a>
+        <a href="https://tuple.app/catch2"><img src="https://github.com/catchorg/Catch2/blob/devel/data/sponsors/github_repo_sponsorship.png" width="100%"></a>
       </figure>
     </td>
   </tr>
@@ -16,10 +16,11 @@
 [![Linux build status](https://github.com/catchorg/Catch2/actions/workflows/linux-simple-builds.yml/badge.svg)](https://github.com/catchorg/Catch2/actions/workflows/linux-simple-builds.yml)
 [![Linux build status](https://github.com/catchorg/Catch2/actions/workflows/linux-other-builds.yml/badge.svg)](https://github.com/catchorg/Catch2/actions/workflows/linux-other-builds.yml)
 [![MacOS build status](https://github.com/catchorg/Catch2/actions/workflows/mac-builds.yml/badge.svg)](https://github.com/catchorg/Catch2/actions/workflows/mac-builds.yml)
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/catchorg/Catch2?svg=true&branch=devel)](https://ci.appveyor.com/project/catchorg/catch2)
 [![Code Coverage](https://codecov.io/gh/catchorg/Catch2/branch/devel/graph/badge.svg)](https://codecov.io/gh/catchorg/Catch2)
 [![Try online](https://img.shields.io/badge/try-online-blue.svg)](https://godbolt.org/z/EdoY15q9G)
 [![Join the chat in Discord: https://discord.gg/4CWS9zD](https://img.shields.io/badge/Discord-Chat!-brightgreen.svg)](https://discord.gg/4CWS9zD)
+
+<!-- [![Build Status](https://ci.appveyor.com/api/projects/status/github/catchorg/Catch2?svg=true&branch=devel)](https://ci.appveyor.com/project/catchorg/catch2) -->
 
 
 ## What is Catch2?
@@ -79,19 +80,51 @@ TEST_CASE("Benchmark Fibonacci", "[!benchmark]") {
 _Note that benchmarks are not run by default, so you need to run it explicitly
 with the `[!benchmark]` tag._
 
+<br>
 
 ## Installation
 
 Run:
-```bash
+
+```sh
 $ npm i catch2.cxx
 ```
 
 And then include `catch_all.hpp` as follows:
-```c
-#include "node_modules/catch2.cxx/src/catch2/catch_all.hpp"
+
+```cxx
+// main.cxx
+#define CATCH2_IMPLEMENTATION
+#include "node_modules/catch2.cxx/catch_all.hpp"
+
+int main() { /* ... */ }
 ```
 
+And then compile with `clang` or `gcc` as usual.
+
+```bash
+$ clang main.cxx  # or, use gcc
+$ gcc   main.cxx
+```
+
+You may also use a simpler approach:
+
+```cxx
+// main.cxx
+#define CATCH2_IMPLEMENTATION
+#include <catch2/catch_all.hpp>
+
+int main() { /* ... */ }
+```
+
+If you add the path `node_modules/catch2.cxx` to your compiler's include paths.
+
+```bash
+$ clang -I./node_modules/catch2.cxx main.cxx  # or, use gcc
+$ gcc   -I./node_modules/catch2.cxx main.cxx
+```
+
+<br>
 
 ## Catch2 v3 has been released!
 
@@ -104,32 +137,34 @@ The documentation is slowly being updated to take these changes into
 account, but this work is currently still ongoing.
 
 For migrating from the v2 releases to v3, you should look at [our
-documentation](docs/migrate-v2-to-v3.md#top). It provides a simple
+documentation](https://github.com/catchorg/Catch2/blob/devel/docs/migrate-v2-to-v3.md#top). It provides a simple
 guidelines on getting started, and collects most common migration
 problems.
 
 For the previous major version of Catch2 [look into the `v2.x` branch
 here on GitHub](https://github.com/catchorg/Catch2/tree/v2.x).
 
+<br>
 
 ## How to use it
 This documentation comprises these three parts:
 
-* [Why do we need yet another C++ Test Framework?](docs/why-catch.md#top)
-* [Tutorial](docs/tutorial.md#top) - getting started
-* [Reference section](docs/Readme.md#top) - all the details
+* [Why do we need yet another C++ Test Framework?](https://github.com/catchorg/Catch2/blob/devel/docs/why-catch.md#top)
+* [Tutorial](https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#top) - getting started
+* [Reference section](https://github.com/catchorg/Catch2/blob/devel/docs/Readme.md#top) - all the details
 
+<br>
 
 ## More
 * Issues and bugs can be raised on the [Issue tracker on GitHub](https://github.com/catchorg/Catch2/issues)
 * For discussion or questions please use [our Discord](https://discord.gg/4CWS9zD)
-* See who else is using Catch2 in [Open Source Software](docs/opensource-users.md#top)
-or [commercially](docs/commercial-users.md#top).
+* See who else is using Catch2 in [Open Source Software](https://github.com/catchorg/Catch2/blob/devel/docs/opensource-users.md#top)
+or [commercially](https://github.com/catchorg/Catch2/blob/devel/docs/commercial-users.md#top).
 
 <br>
 <br>
 
 
+[![SRC](https://img.shields.io/badge/src-repo-green?logo=Org)](https://github.com/catchorg/Catch2)
 [![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
 ![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/catch2.cxx)
-[![SRC](https://img.shields.io/badge/src-repo-green?logo=Org)](https://github.com/catchorg/Catch2)
