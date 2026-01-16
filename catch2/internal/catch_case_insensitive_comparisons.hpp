@@ -8,7 +8,7 @@
 #ifndef CATCH_CASE_INSENSITIVE_COMPARISONS_HPP_INCLUDED
 #define CATCH_CASE_INSENSITIVE_COMPARISONS_HPP_INCLUDED
 
-#include "catch_stringref.hpp"
+#include "catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
     namespace Detail {

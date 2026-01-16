@@ -6,10 +6,10 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_random_seed_generation.hpp"
+#include "catch_random_seed_generation.hpp"  // Adjust to relative path (@wolfram77)
 
-#include "catch_enforce.hpp"
-#include "catch_random_integer_helpers.hpp"
+#include "catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_random_integer_helpers.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <ctime>
 #include <random>

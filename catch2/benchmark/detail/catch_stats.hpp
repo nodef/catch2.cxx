@@ -10,8 +10,8 @@
 #ifndef CATCH_STATS_HPP_INCLUDED
 #define CATCH_STATS_HPP_INCLUDED
 
-#include "../catch_estimate.hpp"
-#include "../catch_outlier_classification.hpp"
+#include "../catch_estimate.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_outlier_classification.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <vector>
 

@@ -6,8 +6,8 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_interfaces_capture.hpp"
-#include "../internal/catch_enforce.hpp"
+#include "catch_interfaces_capture.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
     namespace Detail {

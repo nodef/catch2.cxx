@@ -8,14 +8,14 @@
 #ifndef CATCH_INTERFACES_REPORTER_HPP_INCLUDED
 #define CATCH_INTERFACES_REPORTER_HPP_INCLUDED
 
-#include "../catch_section_info.hpp"
-#include "../catch_test_run_info.hpp"
-#include "../catch_totals.hpp"
-#include "../catch_assertion_result.hpp"
-#include "../internal/catch_message_info.hpp"
-#include "../internal/catch_stringref.hpp"
-#include "../internal/catch_unique_ptr.hpp"
-#include "../benchmark/detail/catch_benchmark_stats.hpp"
+#include "../catch_section_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_test_run_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_totals.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_assertion_result.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_message_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
+#include "../benchmark/detail/catch_benchmark_stats.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <map>
 #include <string>

@@ -8,11 +8,11 @@
 #ifndef CATCH_GENERATORS_RANDOM_HPP_INCLUDED
 #define CATCH_GENERATORS_RANDOM_HPP_INCLUDED
 
-#include "catch_generators.hpp"
-#include "../internal/catch_random_number_generator.hpp"
-#include "../internal/catch_uniform_integer_distribution.hpp"
-#include "../internal/catch_uniform_floating_point_distribution.hpp"
-#include "../internal/catch_unique_ptr.hpp"
+#include "catch_generators.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_random_number_generator.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_uniform_integer_distribution.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_uniform_floating_point_distribution.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 namespace Generators {

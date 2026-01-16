@@ -22,119 +22,119 @@
 #ifndef CATCH_ALL_HPP_INCLUDED
 #define CATCH_ALL_HPP_INCLUDED
 
-#include "benchmark/catch_benchmark_all.hpp"
-#include "catch_approx.hpp"
-#include "catch_assertion_info.hpp"
-#include "catch_assertion_result.hpp"
-#include "catch_case_sensitive.hpp"
-#include "catch_config.hpp"
-#include "catch_get_random_seed.hpp"
-#include "catch_message.hpp"
-#include "catch_section_info.hpp"
-#include "catch_session.hpp"
-#include "catch_tag_alias.hpp"
-#include "catch_tag_alias_autoregistrar.hpp"
-#include "catch_template_test_macros.hpp"
-#include "catch_test_case_info.hpp"
-#include "catch_test_macros.hpp"
-#include "catch_test_run_info.hpp"
-#include "catch_test_spec.hpp"
-#include "catch_timer.hpp"
-#include "catch_tostring.hpp"
-#include "catch_totals.hpp"
-#include "catch_translate_exception.hpp"
-#include "catch_version.hpp"
-#include "catch_version_macros.hpp"
-#include "generators/catch_generators_all.hpp"
-#include "interfaces/catch_interfaces_all.hpp"
-#include "internal/catch_assertion_handler.hpp"
-#include "internal/catch_case_insensitive_comparisons.hpp"
-#include "internal/catch_clara.hpp"
-#include "internal/catch_commandline.hpp"
-#include "internal/catch_compare_traits.hpp"
-#include "internal/catch_compiler_capabilities.hpp"
-#include "internal/catch_config_android_logwrite.hpp"
-#include "internal/catch_config_counter.hpp"
-#include "internal/catch_config_prefix_messages.hpp"
-#include "internal/catch_config_static_analysis_support.hpp"
-#include "internal/catch_config_uncaught_exceptions.hpp"
-#include "internal/catch_config_wchar.hpp"
-#include "internal/catch_console_colour.hpp"
-#include "internal/catch_console_width.hpp"
-#include "internal/catch_container_nonmembers.hpp"
-#include "internal/catch_context.hpp"
-#include "internal/catch_debug_console.hpp"
-#include "internal/catch_debugger.hpp"
-#include "internal/catch_decomposer.hpp"
-#include "internal/catch_deprecation_macro.hpp"
-#include "internal/catch_enforce.hpp"
-#include "internal/catch_enum_values_registry.hpp"
-#include "internal/catch_errno_guard.hpp"
-#include "internal/catch_exception_translator_registry.hpp"
-#include "internal/catch_fatal_condition_handler.hpp"
-#include "internal/catch_floating_point_helpers.hpp"
-#include "internal/catch_getenv.hpp"
-#include "internal/catch_is_permutation.hpp"
-#include "internal/catch_istream.hpp"
-#include "internal/catch_jsonwriter.hpp"
-#include "internal/catch_lazy_expr.hpp"
-#include "internal/catch_leak_detector.hpp"
-#include "internal/catch_lifetimebound.hpp"
-#include "internal/catch_list.hpp"
-#include "internal/catch_logical_traits.hpp"
-#include "internal/catch_message_info.hpp"
-#include "internal/catch_meta.hpp"
-#include "internal/catch_move_and_forward.hpp"
-#include "internal/catch_noncopyable.hpp"
-#include "internal/catch_optional.hpp"
-#include "internal/catch_output_redirect.hpp"
-#include "internal/catch_parse_numbers.hpp"
-#include "internal/catch_platform.hpp"
-#include "internal/catch_polyfills.hpp"
-#include "internal/catch_preprocessor.hpp"
-#include "internal/catch_preprocessor_internal_stringify.hpp"
-#include "internal/catch_preprocessor_remove_parens.hpp"
-#include "internal/catch_random_floating_point_helpers.hpp"
-#include "internal/catch_random_integer_helpers.hpp"
-#include "internal/catch_random_number_generator.hpp"
-#include "internal/catch_random_seed_generation.hpp"
-#include "internal/catch_reporter_registry.hpp"
-#include "internal/catch_reporter_spec_parser.hpp"
-#include "internal/catch_result_type.hpp"
-#include "internal/catch_reusable_string_stream.hpp"
-#include "internal/catch_run_context.hpp"
-#include "internal/catch_section.hpp"
-#include "internal/catch_sharding.hpp"
-#include "internal/catch_singletons.hpp"
-#include "internal/catch_source_line_info.hpp"
-#include "internal/catch_startup_exception_registry.hpp"
-#include "internal/catch_stdstreams.hpp"
-#include "internal/catch_stream_end_stop.hpp"
-#include "internal/catch_string_manip.hpp"
-#include "internal/catch_stringref.hpp"
-#include "internal/catch_tag_alias_registry.hpp"
-#include "internal/catch_template_test_registry.hpp"
-#include "internal/catch_test_case_info_hasher.hpp"
-#include "internal/catch_test_case_registry_impl.hpp"
-#include "internal/catch_test_case_tracker.hpp"
-#include "internal/catch_test_failure_exception.hpp"
-#include "internal/catch_test_macro_impl.hpp"
-#include "internal/catch_test_registry.hpp"
-#include "internal/catch_test_spec_parser.hpp"
-#include "internal/catch_textflow.hpp"
-#include "internal/catch_thread_local.hpp"
-#include "internal/catch_thread_support.hpp"
-#include "internal/catch_to_string.hpp"
-#include "internal/catch_uncaught_exceptions.hpp"
-#include "internal/catch_uniform_floating_point_distribution.hpp"
-#include "internal/catch_uniform_integer_distribution.hpp"
-#include "internal/catch_unique_name.hpp"
-#include "internal/catch_unique_ptr.hpp"
-#include "internal/catch_unreachable.hpp"
-#include "internal/catch_void_type.hpp"
-#include "internal/catch_wildcard_pattern.hpp"
-#include "internal/catch_xmlwriter.hpp"
-#include "matchers/catch_matchers_all.hpp"
-#include "reporters/catch_reporters_all.hpp"
+#include "benchmark/catch_benchmark_all.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_approx.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_assertion_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_assertion_result.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_case_sensitive.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_get_random_seed.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_message.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_section_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_session.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_tag_alias.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_tag_alias_autoregistrar.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_template_test_macros.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_test_case_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_test_macros.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_test_run_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_test_spec.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_timer.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_tostring.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_totals.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_translate_exception.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_version.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_version_macros.hpp"  // Adjust to relative path (@wolfram77)
+#include "generators/catch_generators_all.hpp"  // Adjust to relative path (@wolfram77)
+#include "interfaces/catch_interfaces_all.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_assertion_handler.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_case_insensitive_comparisons.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_clara.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_commandline.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_compare_traits.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_config_android_logwrite.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_config_counter.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_config_prefix_messages.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_config_static_analysis_support.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_config_uncaught_exceptions.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_config_wchar.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_console_colour.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_console_width.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_container_nonmembers.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_context.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_debug_console.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_debugger.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_decomposer.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_deprecation_macro.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_enum_values_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_errno_guard.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_exception_translator_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_fatal_condition_handler.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_floating_point_helpers.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_getenv.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_is_permutation.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_istream.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_jsonwriter.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_lazy_expr.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_leak_detector.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_lifetimebound.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_list.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_logical_traits.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_message_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_meta.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_noncopyable.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_optional.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_output_redirect.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_parse_numbers.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_platform.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_polyfills.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_preprocessor.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_preprocessor_internal_stringify.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_preprocessor_remove_parens.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_random_floating_point_helpers.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_random_integer_helpers.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_random_number_generator.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_random_seed_generation.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_reporter_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_reporter_spec_parser.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_result_type.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_reusable_string_stream.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_run_context.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_section.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_sharding.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_singletons.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_source_line_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_startup_exception_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_stdstreams.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_stream_end_stop.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_string_manip.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_tag_alias_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_template_test_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_test_case_info_hasher.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_test_case_registry_impl.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_test_case_tracker.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_test_failure_exception.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_test_macro_impl.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_test_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_test_spec_parser.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_textflow.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_thread_local.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_thread_support.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_to_string.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_uncaught_exceptions.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_uniform_floating_point_distribution.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_uniform_integer_distribution.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_unique_name.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_unreachable.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_void_type.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_wildcard_pattern.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_xmlwriter.hpp"  // Adjust to relative path (@wolfram77)
+#include "matchers/catch_matchers_all.hpp"  // Adjust to relative path (@wolfram77)
+#include "reporters/catch_reporters_all.hpp"  // Adjust to relative path (@wolfram77)
 
 #endif // CATCH_ALL_HPP_INCLUDED

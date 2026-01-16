@@ -8,11 +8,11 @@
 #ifndef CATCH_BENCHMARK_STATS_HPP_INCLUDED
 #define CATCH_BENCHMARK_STATS_HPP_INCLUDED
 
-#include "../catch_estimate.hpp"
-#include "../catch_outlier_classification.hpp"
+#include "../catch_estimate.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_outlier_classification.hpp"  // Adjust to relative path (@wolfram77)
 // The fwd decl & default specialization needs to be seen by VS2017 before
 // BenchmarkStats itself, or VS2017 will report compilation error.
-#include "catch_benchmark_stats_fwd.hpp"
+#include "catch_benchmark_stats_fwd.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 #include <vector>

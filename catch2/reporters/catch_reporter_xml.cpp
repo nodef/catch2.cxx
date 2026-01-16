@@ -5,16 +5,16 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_reporter_xml.hpp"
+#include "catch_reporter_xml.hpp"  // Adjust to relative path (@wolfram77)
 
-#include "catch_reporter_helpers.hpp"
-#include "../interfaces/catch_interfaces_config.hpp"
-#include "../catch_test_spec.hpp"
-#include "../internal/catch_string_manip.hpp"
-#include "../internal/catch_list.hpp"
-#include "../catch_test_case_info.hpp"
-#include "../internal/catch_move_and_forward.hpp"
-#include "../catch_version.hpp"
+#include "catch_reporter_helpers.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_test_spec.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_string_manip.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_list.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_test_case_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_version.hpp"  // Adjust to relative path (@wolfram77)
 
 #if defined(_MSC_VER)
 #pragma warning(push)

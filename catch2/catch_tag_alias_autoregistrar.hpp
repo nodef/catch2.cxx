@@ -8,9 +8,9 @@
 #ifndef CATCH_TAG_ALIAS_AUTOREGISTRAR_HPP_INCLUDED
 #define CATCH_TAG_ALIAS_AUTOREGISTRAR_HPP_INCLUDED
 
-#include "internal/catch_compiler_capabilities.hpp"
-#include "internal/catch_unique_name.hpp"
-#include "internal/catch_source_line_info.hpp"
+#include "internal/catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_unique_name.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_source_line_info.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

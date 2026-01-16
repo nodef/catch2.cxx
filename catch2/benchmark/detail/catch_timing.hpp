@@ -10,8 +10,8 @@
 #ifndef CATCH_TIMING_HPP_INCLUDED
 #define CATCH_TIMING_HPP_INCLUDED
 
-#include "../catch_clock.hpp"
-#include "catch_complete_invoke.hpp"
+#include "../catch_clock.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_complete_invoke.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
     namespace Benchmark {

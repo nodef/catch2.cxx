@@ -8,7 +8,7 @@
 #ifndef CATCH_APPROX_HPP_INCLUDED
 #define CATCH_APPROX_HPP_INCLUDED
 
-#include "catch_tostring.hpp"
+#include "catch_tostring.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <type_traits>
 

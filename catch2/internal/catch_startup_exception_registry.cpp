@@ -6,9 +6,9 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_startup_exception_registry.hpp"
-#include "catch_compiler_capabilities.hpp"
-#include "../catch_user_config.hpp"
+#include "catch_startup_exception_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 #if !defined(CATCH_CONFIG_DISABLE_EXCEPTIONS)

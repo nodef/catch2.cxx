@@ -8,13 +8,13 @@
 #ifndef CATCH_TEST_MACROS_HPP_INCLUDED
 #define CATCH_TEST_MACROS_HPP_INCLUDED
 
-#include "internal/catch_test_macro_impl.hpp"
-#include "catch_message.hpp"
-#include "catch_user_config.hpp"
-#include "internal/catch_section.hpp"
-#include "internal/catch_test_registry.hpp"
-#include "internal/catch_unique_name.hpp"
-#include "internal/catch_unreachable.hpp"
+#include "internal/catch_test_macro_impl.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_message.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_section.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_test_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_unique_name.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_unreachable.hpp"  // Adjust to relative path (@wolfram77)
 
 
 // All of our user-facing macros support configuration toggle, that

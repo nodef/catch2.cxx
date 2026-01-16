@@ -8,7 +8,7 @@
 #ifndef CATCH_THREAD_LOCAL_HPP_INCLUDED
 #define CATCH_THREAD_LOCAL_HPP_INCLUDED
 
-#include "../catch_user_config.hpp"
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
 
 #if defined( CATCH_CONFIG_THREAD_SAFE_ASSERTIONS )
 #define CATCH_INTERNAL_THREAD_LOCAL thread_local

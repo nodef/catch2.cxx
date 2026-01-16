@@ -5,16 +5,16 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_commandline.hpp"
+#include "catch_commandline.hpp"  // Adjust to relative path (@wolfram77)
 
-#include "../catch_config.hpp"
-#include "catch_string_manip.hpp"
-#include "../interfaces/catch_interfaces_config.hpp"
-#include "../interfaces/catch_interfaces_registry_hub.hpp"
-#include "catch_reporter_registry.hpp"
-#include "catch_console_colour.hpp"
-#include "catch_parse_numbers.hpp"
-#include "catch_reporter_spec_parser.hpp"
+#include "../catch_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_string_manip.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_registry_hub.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_console_colour.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_parse_numbers.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_spec_parser.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <fstream>
 #include <string>

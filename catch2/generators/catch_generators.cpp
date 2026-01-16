@@ -6,10 +6,10 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_generators.hpp"
-#include "../internal/catch_enforce.hpp"
-#include "catch_generator_exception.hpp"
-#include "../interfaces/catch_interfaces_capture.hpp"
+#include "catch_generators.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_generator_exception.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_capture.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

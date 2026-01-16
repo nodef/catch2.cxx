@@ -8,7 +8,7 @@
 #ifndef CATCH_CONTAINER_NONMEMBERS_HPP_INCLUDED
 #define CATCH_CONTAINER_NONMEMBERS_HPP_INCLUDED
 
-#include "catch_compiler_capabilities.hpp"
+#include "catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cstddef>
 #include <initializer_list>

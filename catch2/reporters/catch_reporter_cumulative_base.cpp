@@ -5,9 +5,9 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_reporter_cumulative_base.hpp"
+#include "catch_reporter_cumulative_base.hpp"  // Adjust to relative path (@wolfram77)
 
-#include "../internal/catch_move_and_forward.hpp"
+#include "../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <algorithm>
 #include <cassert>

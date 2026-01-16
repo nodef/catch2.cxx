@@ -6,10 +6,10 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_get_random_seed.hpp"
+#include "catch_get_random_seed.hpp"  // Adjust to relative path (@wolfram77)
 
-#include "internal/catch_context.hpp"
-#include "catch_config.hpp"
+#include "internal/catch_context.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_config.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
     std::uint32_t getSeed() {

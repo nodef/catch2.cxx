@@ -24,8 +24,8 @@
 // Many features, at point of detection, define an _INTERNAL_ macro, so they
 // can be combined, en-mass, with the _NO_ forms later.
 
-#include "catch_platform.hpp"
-#include "../catch_user_config.hpp"
+#include "catch_platform.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
 
 #ifdef __cplusplus
 

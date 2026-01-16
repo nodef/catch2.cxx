@@ -8,9 +8,9 @@
 #ifndef CATCH_GENERATORS_ADAPTERS_HPP_INCLUDED
 #define CATCH_GENERATORS_ADAPTERS_HPP_INCLUDED
 
-#include "catch_generators.hpp"
-#include "../internal/catch_meta.hpp"
-#include "../internal/catch_move_and_forward.hpp"
+#include "catch_generators.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_meta.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cassert>
 

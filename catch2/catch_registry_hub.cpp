@@ -5,21 +5,21 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "interfaces/catch_interfaces_registry_hub.hpp"
+#include "interfaces/catch_interfaces_registry_hub.hpp"  // Adjust to relative path (@wolfram77)
 
-#include "internal/catch_context.hpp"
-#include "internal/catch_enforce.hpp"
-#include "internal/catch_test_case_registry_impl.hpp"
-#include "internal/catch_reporter_registry.hpp"
-#include "internal/catch_exception_translator_registry.hpp"
-#include "internal/catch_tag_alias_registry.hpp"
-#include "internal/catch_startup_exception_registry.hpp"
-#include "internal/catch_singletons.hpp"
-#include "internal/catch_enum_values_registry.hpp"
-#include "catch_test_case_info.hpp"
-#include "internal/catch_noncopyable.hpp"
-#include "interfaces/catch_interfaces_reporter_factory.hpp"
-#include "internal/catch_move_and_forward.hpp"
+#include "internal/catch_context.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_test_case_registry_impl.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_reporter_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_exception_translator_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_tag_alias_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_startup_exception_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_singletons.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_enum_values_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_test_case_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_noncopyable.hpp"  // Adjust to relative path (@wolfram77)
+#include "interfaces/catch_interfaces_reporter_factory.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <exception>
 

@@ -8,7 +8,7 @@
 #ifndef CATCH_COMPARE_TRAITS_HPP_INCLUDED
 #define CATCH_COMPARE_TRAITS_HPP_INCLUDED
 
-#include "catch_void_type.hpp"
+#include "catch_void_type.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <type_traits>
 

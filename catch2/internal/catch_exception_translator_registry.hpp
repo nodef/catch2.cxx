@@ -8,8 +8,8 @@
 #ifndef CATCH_EXCEPTION_TRANSLATOR_REGISTRY_HPP_INCLUDED
 #define CATCH_EXCEPTION_TRANSLATOR_REGISTRY_HPP_INCLUDED
 
-#include "../interfaces/catch_interfaces_exception.hpp"
-#include "catch_unique_ptr.hpp"
+#include "../interfaces/catch_interfaces_exception.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 

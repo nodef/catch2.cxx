@@ -8,7 +8,7 @@
 #ifndef CATCH_CONSOLE_COLOUR_HPP_INCLUDED
 #define CATCH_CONSOLE_COLOUR_HPP_INCLUDED
 
-#include "catch_unique_ptr.hpp"
+#include "catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <iosfwd>
 #include <cstdint>

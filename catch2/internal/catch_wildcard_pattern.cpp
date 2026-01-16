@@ -5,9 +5,9 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_wildcard_pattern.hpp"
-#include "catch_enforce.hpp"
-#include "catch_string_manip.hpp"
+#include "catch_wildcard_pattern.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_string_manip.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

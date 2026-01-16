@@ -8,7 +8,7 @@
 #ifndef CATCH_CONTEXT_HPP_INCLUDED
 #define CATCH_CONTEXT_HPP_INCLUDED
 
-#include "catch_compiler_capabilities.hpp"
+#include "catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

@@ -8,11 +8,11 @@
 #ifndef CATCH_MATCHERS_TEMPLATED_HPP_INCLUDED
 #define CATCH_MATCHERS_TEMPLATED_HPP_INCLUDED
 
-#include "catch_matchers.hpp"
-#include "../internal/catch_stringref.hpp"
-#include "../internal/catch_move_and_forward.hpp"
-#include "../internal/catch_lifetimebound.hpp"
-#include "../internal/catch_logical_traits.hpp"
+#include "catch_matchers.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_lifetimebound.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_logical_traits.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <array>
 #include <algorithm>

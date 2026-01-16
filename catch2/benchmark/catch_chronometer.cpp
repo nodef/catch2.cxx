@@ -6,7 +6,7 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_chronometer.hpp"
+#include "catch_chronometer.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
     namespace Benchmark {

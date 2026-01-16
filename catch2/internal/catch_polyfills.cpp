@@ -6,9 +6,9 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_polyfills.hpp"
-#include "catch_compiler_capabilities.hpp"
-#include "../catch_user_config.hpp"
+#include "catch_polyfills.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cmath>
 

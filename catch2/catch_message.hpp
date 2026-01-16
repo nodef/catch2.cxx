@@ -8,13 +8,13 @@
 #ifndef CATCH_MESSAGE_HPP_INCLUDED
 #define CATCH_MESSAGE_HPP_INCLUDED
 
-#include "internal/catch_config_prefix_messages.hpp"
-#include "internal/catch_result_type.hpp"
-#include "internal/catch_reusable_string_stream.hpp"
-#include "internal/catch_stream_end_stop.hpp"
-#include "internal/catch_message_info.hpp"
-#include "catch_tostring.hpp"
-#include "interfaces/catch_interfaces_capture.hpp"
+#include "internal/catch_config_prefix_messages.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_result_type.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_reusable_string_stream.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_stream_end_stop.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_message_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_tostring.hpp"  // Adjust to relative path (@wolfram77)
+#include "interfaces/catch_interfaces_capture.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 #include <vector>

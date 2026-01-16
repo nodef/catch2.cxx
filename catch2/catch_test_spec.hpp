@@ -13,8 +13,8 @@
 #pragma clang diagnostic ignored "-Wpadded"
 #endif
 
-#include "internal/catch_unique_ptr.hpp"
-#include "internal/catch_wildcard_pattern.hpp"
+#include "internal/catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_wildcard_pattern.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <iosfwd>
 #include <string>

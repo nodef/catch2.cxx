@@ -8,7 +8,7 @@
 #ifndef CATCH_REPORTER_COMMON_BASE_HPP_INCLUDED
 #define CATCH_REPORTER_COMMON_BASE_HPP_INCLUDED
 
-#include "../interfaces/catch_interfaces_reporter.hpp"
+#include "../interfaces/catch_interfaces_reporter.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <map>
 #include <string>

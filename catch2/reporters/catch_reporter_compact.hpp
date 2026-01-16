@@ -9,7 +9,7 @@
 #define CATCH_REPORTER_COMPACT_HPP_INCLUDED
 
 
-#include "catch_reporter_streaming_base.hpp"
+#include "catch_reporter_streaming_base.hpp"  // Adjust to relative path (@wolfram77)
 
 
 namespace Catch {

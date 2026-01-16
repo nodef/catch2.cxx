@@ -6,10 +6,10 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_matchers_impl.hpp"
-#include "../catch_matchers.hpp"
-#include "../../interfaces/catch_interfaces_registry_hub.hpp"
-#include "../../internal/catch_move_and_forward.hpp"
+#include "catch_matchers_impl.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_matchers.hpp"  // Adjust to relative path (@wolfram77)
+#include "../../interfaces/catch_interfaces_registry_hub.hpp"  // Adjust to relative path (@wolfram77)
+#include "../../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

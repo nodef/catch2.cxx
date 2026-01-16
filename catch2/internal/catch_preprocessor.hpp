@@ -8,7 +8,7 @@
 #ifndef CATCH_PREPROCESSOR_HPP_INCLUDED
 #define CATCH_PREPROCESSOR_HPP_INCLUDED
 
-#include "catch_preprocessor_remove_parens.hpp"
+#include "catch_preprocessor_remove_parens.hpp"  // Adjust to relative path (@wolfram77)
 
 #if defined(__GNUC__)
 // We need to silence "empty __VA_ARGS__ warning", and using just _Pragma does not work

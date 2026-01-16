@@ -8,8 +8,8 @@
 // Note: swapping these two includes around causes MSVC to error out
 //       while in /permissive- mode. No, I don't know why.
 //       Tested on VS 2019, 18.{3, 4}.x
-#include "catch_enforce.hpp"
-#include "catch_xmlwriter.hpp"
+#include "catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_xmlwriter.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cstdint>
 #include <iomanip>

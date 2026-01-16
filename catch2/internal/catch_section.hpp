@@ -8,13 +8,13 @@
 #ifndef CATCH_SECTION_HPP_INCLUDED
 #define CATCH_SECTION_HPP_INCLUDED
 
-#include "catch_compiler_capabilities.hpp"
-#include "catch_config_static_analysis_support.hpp"
-#include "catch_noncopyable.hpp"
-#include "../catch_section_info.hpp"
-#include "../catch_timer.hpp"
-#include "../catch_totals.hpp"
-#include "catch_unique_name.hpp"
+#include "catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_config_static_analysis_support.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_noncopyable.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_section_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_timer.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_totals.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_unique_name.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

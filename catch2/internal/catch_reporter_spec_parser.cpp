@@ -6,10 +6,10 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_reporter_spec_parser.hpp"
+#include "catch_reporter_spec_parser.hpp"  // Adjust to relative path (@wolfram77)
 
-#include "../interfaces/catch_interfaces_config.hpp"
-#include "catch_move_and_forward.hpp"
+#include "../interfaces/catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <algorithm>
 

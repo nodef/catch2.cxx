@@ -10,9 +10,9 @@
 #ifndef CATCH_MEASURE_HPP_INCLUDED
 #define CATCH_MEASURE_HPP_INCLUDED
 
-#include "catch_complete_invoke.hpp"
-#include "catch_timing.hpp"
-#include "../../internal/catch_move_and_forward.hpp"
+#include "catch_complete_invoke.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_timing.hpp"  // Adjust to relative path (@wolfram77)
+#include "../../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
     namespace Benchmark {

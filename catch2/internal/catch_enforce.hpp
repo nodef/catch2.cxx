@@ -8,9 +8,9 @@
 #ifndef CATCH_ENFORCE_HPP_INCLUDED
 #define CATCH_ENFORCE_HPP_INCLUDED
 
-#include "catch_source_line_info.hpp"
-#include "catch_compiler_capabilities.hpp"
-#include "catch_reusable_string_stream.hpp"
+#include "catch_source_line_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reusable_string_stream.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <exception> // for `std::exception` in no-exception configuration
 

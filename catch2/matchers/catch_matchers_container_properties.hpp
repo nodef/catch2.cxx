@@ -8,9 +8,9 @@
 #ifndef CATCH_MATCHERS_CONTAINER_PROPERTIES_HPP_INCLUDED
 #define CATCH_MATCHERS_CONTAINER_PROPERTIES_HPP_INCLUDED
 
-#include "catch_matchers_templated.hpp"
-#include "../internal/catch_container_nonmembers.hpp"
-#include "../internal/catch_move_and_forward.hpp"
+#include "catch_matchers_templated.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_container_nonmembers.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
     namespace Matchers {

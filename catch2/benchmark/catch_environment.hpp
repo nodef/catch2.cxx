@@ -10,8 +10,8 @@
 #ifndef CATCH_ENVIRONMENT_HPP_INCLUDED
 #define CATCH_ENVIRONMENT_HPP_INCLUDED
 
-#include "catch_clock.hpp"
-#include "catch_outlier_classification.hpp"
+#include "catch_clock.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_outlier_classification.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
     namespace Benchmark {

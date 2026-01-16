@@ -17,7 +17,7 @@
 #ifndef CATCH_CONFIG_WCHAR_HPP_INCLUDED
 #define CATCH_CONFIG_WCHAR_HPP_INCLUDED
 
-#include "../catch_user_config.hpp"
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
 
 // We assume that WCHAR should be enabled by default, and only disabled
 // for a shortlist (so far only DJGPP) of compilers.

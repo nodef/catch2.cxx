@@ -29,10 +29,10 @@
 #    endif
 #endif
 
-#include "catch_stringref.hpp"
-#include "catch_move_and_forward.hpp"
-#include "catch_noncopyable.hpp"
-#include "catch_void_type.hpp"
+#include "catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_noncopyable.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_void_type.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cassert>
 #include <memory>

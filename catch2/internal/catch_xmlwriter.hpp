@@ -8,9 +8,9 @@
 #ifndef CATCH_XMLWRITER_HPP_INCLUDED
 #define CATCH_XMLWRITER_HPP_INCLUDED
 
-#include "catch_lifetimebound.hpp"
-#include "catch_reusable_string_stream.hpp"
-#include "catch_stringref.hpp"
+#include "catch_lifetimebound.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reusable_string_stream.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <iosfwd>
 #include <vector>

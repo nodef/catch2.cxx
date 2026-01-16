@@ -8,9 +8,9 @@
 #ifndef CATCH_ASSERTION_HANDLER_HPP_INCLUDED
 #define CATCH_ASSERTION_HANDLER_HPP_INCLUDED
 
-#include "../catch_assertion_info.hpp"
-#include "catch_decomposer.hpp"
-#include "../interfaces/catch_interfaces_capture.hpp"
+#include "../catch_assertion_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_decomposer.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_capture.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 

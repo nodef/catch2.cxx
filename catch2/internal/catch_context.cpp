@@ -5,8 +5,8 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_context.hpp"
-#include "catch_random_number_generator.hpp"
+#include "catch_context.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_random_number_generator.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

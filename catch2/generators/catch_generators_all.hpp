@@ -21,10 +21,10 @@
 #ifndef CATCH_GENERATORS_ALL_HPP_INCLUDED
 #define CATCH_GENERATORS_ALL_HPP_INCLUDED
 
-#include "catch_generator_exception.hpp"
-#include "catch_generators.hpp"
-#include "catch_generators_adapters.hpp"
-#include "catch_generators_random.hpp"
-#include "catch_generators_range.hpp"
+#include "catch_generator_exception.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_generators.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_generators_adapters.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_generators_random.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_generators_range.hpp"  // Adjust to relative path (@wolfram77)
 
 #endif // CATCH_GENERATORS_ALL_HPP_INCLUDED

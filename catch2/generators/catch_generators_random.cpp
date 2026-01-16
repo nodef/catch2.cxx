@@ -6,8 +6,8 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_generators_random.hpp"
-#include "../internal/catch_context.hpp"
+#include "catch_generators_random.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_context.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <random>
 

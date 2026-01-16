@@ -8,7 +8,7 @@
 #ifndef CATCH_PREPROCESSOR_INTERNAL_STRINGIFY_HPP_INCLUDED
 #define CATCH_PREPROCESSOR_INTERNAL_STRINGIFY_HPP_INCLUDED
 
-#include "../catch_user_config.hpp"
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
 
 #if !defined(CATCH_CONFIG_DISABLE_STRINGIFICATION)
   #define CATCH_INTERNAL_STRINGIFY(...) #__VA_ARGS__##_catch_sr

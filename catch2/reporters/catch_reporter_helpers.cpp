@@ -6,16 +6,16 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_reporter_helpers.hpp"
-#include "../interfaces/catch_interfaces_config.hpp"
-#include "../internal/catch_console_width.hpp"
-#include "../internal/catch_errno_guard.hpp"
-#include "../internal/catch_textflow.hpp"
-#include "../internal/catch_reusable_string_stream.hpp"
-#include "../internal/catch_string_manip.hpp"
-#include "../internal/catch_console_colour.hpp"
-#include "../catch_tostring.hpp"
-#include "../catch_test_case_info.hpp"
+#include "catch_reporter_helpers.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_console_width.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_errno_guard.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_textflow.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_reusable_string_stream.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_string_manip.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_console_colour.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_tostring.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_test_case_info.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <algorithm>
 #include <cfloat>

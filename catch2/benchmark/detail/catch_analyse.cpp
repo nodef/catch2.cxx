@@ -7,12 +7,12 @@
 // SPDX-License-Identifier: BSL-1.0
 // Adapted from donated nonius code.
 
-#include "catch_analyse.hpp"
-#include "../catch_clock.hpp"
-#include "../catch_sample_analysis.hpp"
-#include "catch_stats.hpp"
-#include "../../interfaces/catch_interfaces_config.hpp"
-#include "../../internal/catch_move_and_forward.hpp"
+#include "catch_analyse.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_clock.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_sample_analysis.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_stats.hpp"  // Adjust to relative path (@wolfram77)
+#include "../../interfaces/catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "../../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <vector>
 

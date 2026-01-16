@@ -11,17 +11,17 @@
 #endif
 
 
-#include "catch_console_colour.hpp"
-#include "catch_enforce.hpp"
-#include "catch_errno_guard.hpp"
-#include "../interfaces/catch_interfaces_config.hpp"
-#include "catch_istream.hpp"
-#include "catch_move_and_forward.hpp"
-#include "catch_context.hpp"
-#include "catch_platform.hpp"
-#include "catch_debugger.hpp"
-#include "catch_windows_h_proxy.hpp"
-#include "catch_compiler_capabilities.hpp"
+#include "catch_console_colour.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_errno_guard.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_istream.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_context.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_platform.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_debugger.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_windows_h_proxy.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cassert>
 #include <ostream>

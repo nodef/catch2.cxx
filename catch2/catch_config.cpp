@@ -5,16 +5,16 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_config.hpp"
-#include "catch_user_config.hpp"
-#include "internal/catch_enforce.hpp"
-#include "internal/catch_parse_numbers.hpp"
-#include "internal/catch_stdstreams.hpp"
-#include "internal/catch_stringref.hpp"
-#include "internal/catch_string_manip.hpp"
-#include "internal/catch_test_spec_parser.hpp"
-#include "interfaces/catch_interfaces_tag_alias_registry.hpp"
-#include "internal/catch_getenv.hpp"
+#include "catch_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_parse_numbers.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_stdstreams.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_string_manip.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_test_spec_parser.hpp"  // Adjust to relative path (@wolfram77)
+#include "interfaces/catch_interfaces_tag_alias_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_getenv.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <fstream>
 

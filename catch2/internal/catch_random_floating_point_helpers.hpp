@@ -9,7 +9,7 @@
 #ifndef CATCH_RANDOM_FLOATING_POINT_HELPERS_HPP_INCLUDED
 #define CATCH_RANDOM_FLOATING_POINT_HELPERS_HPP_INCLUDED
 
-#include "catch_polyfills.hpp"
+#include "catch_polyfills.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cassert>
 #include <cmath>

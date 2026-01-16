@@ -6,8 +6,8 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_message_info.hpp"
-#include "catch_thread_local.hpp"
+#include "catch_message_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_thread_local.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

@@ -8,7 +8,7 @@
 #ifndef CATCH_TAG_ALIAS_HPP_INCLUDED
 #define CATCH_TAG_ALIAS_HPP_INCLUDED
 
-#include "internal/catch_source_line_info.hpp"
+#include "internal/catch_source_line_info.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 

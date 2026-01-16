@@ -8,8 +8,8 @@
 #ifndef CATCH_INTERFACES_REPORTER_FACTORY_HPP_INCLUDED
 #define CATCH_INTERFACES_REPORTER_FACTORY_HPP_INCLUDED
 
-#include "../internal/catch_unique_ptr.hpp"
-#include "../internal/catch_stringref.hpp"
+#include "../internal/catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 

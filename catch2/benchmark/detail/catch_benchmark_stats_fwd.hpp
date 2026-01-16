@@ -8,7 +8,7 @@
 #ifndef CATCH_BENCHMARK_STATS_FWD_HPP_INCLUDED
 #define CATCH_BENCHMARK_STATS_FWD_HPP_INCLUDED
 
-#include "../catch_clock.hpp"
+#include "../catch_clock.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

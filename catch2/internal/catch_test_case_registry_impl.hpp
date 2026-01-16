@@ -8,9 +8,9 @@
 #ifndef CATCH_TEST_CASE_REGISTRY_IMPL_HPP_INCLUDED
 #define CATCH_TEST_CASE_REGISTRY_IMPL_HPP_INCLUDED
 
-#include "../interfaces/catch_interfaces_testcase.hpp"
-#include "../interfaces/catch_interfaces_config.hpp"
-#include "catch_unique_ptr.hpp"
+#include "../interfaces/catch_interfaces_testcase.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <vector>
 

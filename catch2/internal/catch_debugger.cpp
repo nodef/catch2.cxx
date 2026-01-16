@@ -5,10 +5,10 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_debugger.hpp"
-#include "catch_errno_guard.hpp"
-#include "catch_platform.hpp"
-#include "catch_stdstreams.hpp"
+#include "catch_debugger.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_errno_guard.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_platform.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_stdstreams.hpp"  // Adjust to relative path (@wolfram77)
 
 #if defined(CATCH_PLATFORM_MAC) || defined(CATCH_PLATFORM_IPHONE)
 

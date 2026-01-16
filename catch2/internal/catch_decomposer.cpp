@@ -6,7 +6,7 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_decomposer.hpp"
+#include "catch_decomposer.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

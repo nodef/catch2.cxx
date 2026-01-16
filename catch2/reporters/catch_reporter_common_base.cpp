@@ -6,11 +6,11 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_reporter_common_base.hpp"
+#include "catch_reporter_common_base.hpp"  // Adjust to relative path (@wolfram77)
 
-#include "catch_reporter_helpers.hpp"
-#include "../internal/catch_console_colour.hpp"
-#include "../internal/catch_istream.hpp"
+#include "catch_reporter_helpers.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_console_colour.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_istream.hpp"  // Adjust to relative path (@wolfram77)
 
 
 namespace Catch {

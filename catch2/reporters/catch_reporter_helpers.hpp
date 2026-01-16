@@ -12,9 +12,9 @@
 #include <string>
 #include <vector>
 
-#include "../internal/catch_list.hpp"
-#include "../interfaces/catch_interfaces_config.hpp"
-#include "../catch_totals.hpp"
+#include "../internal/catch_list.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_totals.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

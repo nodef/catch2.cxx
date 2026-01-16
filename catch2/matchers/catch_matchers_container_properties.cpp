@@ -6,8 +6,8 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_matchers_container_properties.hpp"
-#include "../internal/catch_reusable_string_stream.hpp"
+#include "catch_matchers_container_properties.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_reusable_string_stream.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 namespace Matchers {

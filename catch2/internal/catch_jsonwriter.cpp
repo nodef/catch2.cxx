@@ -5,9 +5,9 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_enforce.hpp"
-#include "catch_jsonwriter.hpp"
-#include "catch_unreachable.hpp"
+#include "catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_jsonwriter.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_unreachable.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

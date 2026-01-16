@@ -5,9 +5,9 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_move_and_forward.hpp"
-#include "catch_string_manip.hpp"
-#include "catch_stringref.hpp"
+#include "catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_string_manip.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <ostream>
 #include <cstring>

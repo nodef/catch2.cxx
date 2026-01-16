@@ -10,12 +10,12 @@
 #ifndef CATCH_ESTIMATE_CLOCK_HPP_INCLUDED
 #define CATCH_ESTIMATE_CLOCK_HPP_INCLUDED
 
-#include "../catch_clock.hpp"
-#include "../catch_environment.hpp"
-#include "catch_stats.hpp"
-#include "catch_measure.hpp"
-#include "catch_run_for_at_least.hpp"
-#include "../../internal/catch_unique_ptr.hpp"
+#include "../catch_clock.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_environment.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_stats.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_measure.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_run_for_at_least.hpp"  // Adjust to relative path (@wolfram77)
+#include "../../internal/catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <algorithm>
 #include <vector>

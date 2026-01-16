@@ -6,9 +6,9 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_uncaught_exceptions.hpp"
-#include "catch_config_uncaught_exceptions.hpp"
-#include "../catch_user_config.hpp"
+#include "catch_uncaught_exceptions.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_config_uncaught_exceptions.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <exception>
 

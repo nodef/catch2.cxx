@@ -8,7 +8,7 @@
 #ifndef CATCH_PARSE_NUMBERS_HPP_INCLUDED
 #define CATCH_PARSE_NUMBERS_HPP_INCLUDED
 
-#include "catch_optional.hpp"
+#include "catch_optional.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 

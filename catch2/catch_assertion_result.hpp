@@ -8,11 +8,11 @@
 #ifndef CATCH_ASSERTION_RESULT_HPP_INCLUDED
 #define CATCH_ASSERTION_RESULT_HPP_INCLUDED
 
-#include "catch_assertion_info.hpp"
-#include "internal/catch_result_type.hpp"
-#include "internal/catch_source_line_info.hpp"
-#include "internal/catch_stringref.hpp"
-#include "internal/catch_lazy_expr.hpp"
+#include "catch_assertion_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_result_type.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_source_line_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_lazy_expr.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 

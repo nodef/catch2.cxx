@@ -8,8 +8,8 @@
 #ifndef CATCH_MATCHERS_RANGE_EQUALS_HPP_INCLUDED
 #define CATCH_MATCHERS_RANGE_EQUALS_HPP_INCLUDED
 
-#include "../internal/catch_is_permutation.hpp"
-#include "catch_matchers_templated.hpp"
+#include "../internal/catch_is_permutation.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_matchers_templated.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <functional>
 

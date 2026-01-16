@@ -5,21 +5,21 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_reporter_console.hpp"
+#include "catch_reporter_console.hpp"  // Adjust to relative path (@wolfram77)
 
-#include "../interfaces/catch_interfaces_config.hpp"
-#include "../catch_test_spec.hpp"
-#include "../internal/catch_console_colour.hpp"
-#include "../internal/catch_string_manip.hpp"
-#include "../catch_version.hpp"
-#include "../internal/catch_textflow.hpp"
-#include "../internal/catch_reusable_string_stream.hpp"
-#include "../internal/catch_stringref.hpp"
-#include "../catch_test_case_info.hpp"
-#include "../internal/catch_console_width.hpp"
-#include "catch_reporter_helpers.hpp"
-#include "../internal/catch_move_and_forward.hpp"
-#include "../catch_get_random_seed.hpp"
+#include "../interfaces/catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_test_spec.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_console_colour.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_string_manip.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_version.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_textflow.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_reusable_string_stream.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_test_case_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_console_width.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_helpers.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_get_random_seed.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cstdio>
 

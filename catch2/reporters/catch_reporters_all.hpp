@@ -21,21 +21,21 @@
 #ifndef CATCH_REPORTERS_ALL_HPP_INCLUDED
 #define CATCH_REPORTERS_ALL_HPP_INCLUDED
 
-#include "catch_reporter_automake.hpp"
-#include "catch_reporter_common_base.hpp"
-#include "catch_reporter_compact.hpp"
-#include "catch_reporter_console.hpp"
-#include "catch_reporter_cumulative_base.hpp"
-#include "catch_reporter_event_listener.hpp"
-#include "catch_reporter_helpers.hpp"
-#include "catch_reporter_json.hpp"
-#include "catch_reporter_junit.hpp"
-#include "catch_reporter_multi.hpp"
-#include "catch_reporter_registrars.hpp"
-#include "catch_reporter_sonarqube.hpp"
-#include "catch_reporter_streaming_base.hpp"
-#include "catch_reporter_tap.hpp"
-#include "catch_reporter_teamcity.hpp"
-#include "catch_reporter_xml.hpp"
+#include "catch_reporter_automake.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_common_base.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_compact.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_console.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_cumulative_base.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_event_listener.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_helpers.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_json.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_junit.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_multi.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_registrars.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_sonarqube.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_streaming_base.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_tap.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_teamcity.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_xml.hpp"  // Adjust to relative path (@wolfram77)
 
 #endif // CATCH_REPORTERS_ALL_HPP_INCLUDED

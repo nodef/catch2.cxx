@@ -13,7 +13,7 @@
 #pragma clang diagnostic ignored "-Wpadded"
 #endif
 
-#include "../catch_test_spec.hpp"
+#include "../catch_test_spec.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <vector>
 #include <string>

@@ -8,7 +8,7 @@
 #ifndef CATCH_DEPRECATION_MACRO_HPP_INCLUDED
 #define CATCH_DEPRECATION_MACRO_HPP_INCLUDED
 
-#include "../catch_user_config.hpp"
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
 
 #if !defined( CATCH_CONFIG_NO_DEPRECATION_ANNOTATIONS )
 #    define CATCH_DEPRECATED( msg ) [[deprecated( msg )]]

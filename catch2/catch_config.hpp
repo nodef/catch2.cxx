@@ -8,13 +8,13 @@
 #ifndef CATCH_CONFIG_HPP_INCLUDED
 #define CATCH_CONFIG_HPP_INCLUDED
 
-#include "catch_test_spec.hpp"
-#include "interfaces/catch_interfaces_config.hpp"
-#include "internal/catch_unique_ptr.hpp"
-#include "internal/catch_optional.hpp"
-#include "internal/catch_stringref.hpp"
-#include "internal/catch_random_seed_generation.hpp"
-#include "internal/catch_reporter_spec_parser.hpp"
+#include "catch_test_spec.hpp"  // Adjust to relative path (@wolfram77)
+#include "interfaces/catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_optional.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_random_seed_generation.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_reporter_spec_parser.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <chrono>
 #include <map>

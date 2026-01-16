@@ -9,9 +9,9 @@
 #define CATCH_REPORTER_JUNIT_HPP_INCLUDED
 
 
-#include "catch_reporter_cumulative_base.hpp"
-#include "../internal/catch_xmlwriter.hpp"
-#include "../catch_timer.hpp"
+#include "catch_reporter_cumulative_base.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_xmlwriter.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_timer.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

@@ -5,12 +5,12 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_assertion_handler.hpp"
-#include "../interfaces/catch_interfaces_config.hpp"
-#include "catch_context.hpp"
-#include "catch_debugger.hpp"
-#include "catch_test_failure_exception.hpp"
-#include "../matchers/catch_matchers_string.hpp"
+#include "catch_assertion_handler.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_context.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_debugger.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_test_failure_exception.hpp"  // Adjust to relative path (@wolfram77)
+#include "../matchers/catch_matchers_string.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

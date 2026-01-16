@@ -8,10 +8,10 @@
 #ifndef CATCH_REPORTER_SONARQUBE_HPP_INCLUDED
 #define CATCH_REPORTER_SONARQUBE_HPP_INCLUDED
 
-#include "catch_reporter_cumulative_base.hpp"
+#include "catch_reporter_cumulative_base.hpp"  // Adjust to relative path (@wolfram77)
 
-#include "../internal/catch_xmlwriter.hpp"
-#include "../internal/catch_move_and_forward.hpp"
+#include "../internal/catch_xmlwriter.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

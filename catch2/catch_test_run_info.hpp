@@ -8,7 +8,7 @@
 #ifndef CATCH_TEST_RUN_INFO_HPP_INCLUDED
 #define CATCH_TEST_RUN_INFO_HPP_INCLUDED
 
-#include "internal/catch_stringref.hpp"
+#include "internal/catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

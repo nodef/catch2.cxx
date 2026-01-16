@@ -6,12 +6,12 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_clara.hpp"
-#include "catch_console_width.hpp"
-#include "catch_platform.hpp"
-#include "catch_string_manip.hpp"
-#include "catch_textflow.hpp"
-#include "catch_reusable_string_stream.hpp"
+#include "catch_clara.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_console_width.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_platform.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_string_manip.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_textflow.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reusable_string_stream.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <algorithm>
 #include <ostream>

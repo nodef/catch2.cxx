@@ -17,9 +17,9 @@
 #endif
 
 
-#include "catch_test_macros.hpp"
-#include "internal/catch_template_test_registry.hpp"
-#include "internal/catch_preprocessor.hpp"
+#include "catch_test_macros.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_template_test_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_preprocessor.hpp"  // Adjust to relative path (@wolfram77)
 
 
 #if defined(CATCH_CONFIG_PREFIX_ALL) && !defined(CATCH_CONFIG_DISABLE)

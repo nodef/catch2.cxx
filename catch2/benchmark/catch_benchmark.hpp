@@ -10,23 +10,23 @@
 #ifndef CATCH_BENCHMARK_HPP_INCLUDED
 #define CATCH_BENCHMARK_HPP_INCLUDED
 
-#include "../catch_user_config.hpp"
-#include "../internal/catch_compiler_capabilities.hpp"
-#include "../internal/catch_context.hpp"
-#include "../internal/catch_move_and_forward.hpp"
-#include "../internal/catch_test_failure_exception.hpp"
-#include "../internal/catch_unique_name.hpp"
-#include "../interfaces/catch_interfaces_capture.hpp"
-#include "../interfaces/catch_interfaces_config.hpp"
-#include "../interfaces/catch_interfaces_registry_hub.hpp"
-#include "detail/catch_benchmark_stats.hpp"
-#include "catch_clock.hpp"
-#include "catch_environment.hpp"
-#include "catch_execution_plan.hpp"
-#include "detail/catch_estimate_clock.hpp"
-#include "detail/catch_analyse.hpp"
-#include "detail/catch_benchmark_function.hpp"
-#include "detail/catch_run_for_at_least.hpp"
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_context.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_test_failure_exception.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_unique_name.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_capture.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_registry_hub.hpp"  // Adjust to relative path (@wolfram77)
+#include "detail/catch_benchmark_stats.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_clock.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_environment.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_execution_plan.hpp"  // Adjust to relative path (@wolfram77)
+#include "detail/catch_estimate_clock.hpp"  // Adjust to relative path (@wolfram77)
+#include "detail/catch_analyse.hpp"  // Adjust to relative path (@wolfram77)
+#include "detail/catch_benchmark_function.hpp"  // Adjust to relative path (@wolfram77)
+#include "detail/catch_run_for_at_least.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <algorithm>
 #include <chrono>

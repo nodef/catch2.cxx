@@ -36,9 +36,41 @@ function changeIncludesToRelative(rootDir) {
     text = text.replace(/#include\s+["<]catch2\/(.*)[">]/g, function(match, inc) {
       var absInc = path.resolve(rootDir, inc);
       var relInc = path.relative(dir, absInc);
-      return '#include "' + relInc.replace(/\\/g, '/') + '"';
+      return '#include "' + relInc.replace(/\\/g, '/') + '"  // Adjust to relative path (@wolfram77)';
     });
     writeTextFileSync(pth, text);
   });
 }
+
+
+// Amagamate all .cpp files into corresponding .hpp files.
+function amagamateCppsIntoHpps(rootDir) {
+  forEachFileRecSync(rootDir, function(pth) {
+    if (!pth.endsWith('.cpp')) return;
+    var cppPath = pth;
+    var hppPath = cppPath.replace(/\.cpp$/, '.hpp');
+    if (!fs.existsSync(hppPath)) return;
+    var cppText = readTextFileSync(cppPath);
+    var hppText = readTextFileSync(hppPath);
+    cppText = cppText.replace(/#include\s+["<](.*)[">]/g, function(match, inc) {
+      return path.basename(inc) === path.basename(hppPath)? `// ${match} // Disable self-include (@wolfram77)` : match;
+    });
+    incGuard = path.basename(hppPath.replace(/\..*/, '')).toUpperCase() + '_CPP_INCLUDED';
+    hppText  = hppText.trim() + `\n\n\n\n` +
+      `// BEGIN Amalgamated content from ${path.basename(cppPath)} (@wolfram77)\n` +
+      `#ifndef ${incGuard}\n` +
+      `#define ${incGuard}\n` +
+      `#ifdef CATCH2_IMPLEMENTATION\n` +
+      cppText.trim() + `\n` +
+      `#endif // CATCH2_IMPLEMENTATION\n` +
+      `#endif // ${incGuard}\n` +
+      `// END Amalgamated content from ${path.basename(cppPath)} (@wolfram77)\n`;
+    writeTextFileSync(hppPath, hppText);
+    fs.unlinkSync(cppPath);
+  });
+}
+
+
+// Perform the build steps.
 changeIncludesToRelative('catch2');
+amagamateCppsIntoHpps('catch2');

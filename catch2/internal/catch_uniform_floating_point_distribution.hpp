@@ -9,8 +9,8 @@
 #ifndef CATCH_UNIFORM_FLOATING_POINT_DISTRIBUTION_HPP_INCLUDED
 #define CATCH_UNIFORM_FLOATING_POINT_DISTRIBUTION_HPP_INCLUDED
 
-#include "catch_random_floating_point_helpers.hpp"
-#include "catch_uniform_integer_distribution.hpp"
+#include "catch_random_floating_point_helpers.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_uniform_integer_distribution.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cmath>
 #include <type_traits>

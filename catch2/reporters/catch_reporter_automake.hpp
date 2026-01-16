@@ -8,8 +8,8 @@
 #ifndef CATCH_REPORTER_AUTOMAKE_HPP_INCLUDED
 #define CATCH_REPORTER_AUTOMAKE_HPP_INCLUDED
 
-#include "catch_reporter_streaming_base.hpp"
-#include "../internal/catch_move_and_forward.hpp"
+#include "catch_reporter_streaming_base.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 

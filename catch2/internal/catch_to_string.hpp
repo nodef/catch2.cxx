@@ -10,8 +10,8 @@
 
 #include <string>
 
-#include "catch_compiler_capabilities.hpp"
-#include "catch_reusable_string_stream.hpp"
+#include "catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reusable_string_stream.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
     template <typename T>

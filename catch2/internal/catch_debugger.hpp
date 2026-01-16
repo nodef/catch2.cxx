@@ -8,7 +8,7 @@
 #ifndef CATCH_DEBUGGER_HPP_INCLUDED
 #define CATCH_DEBUGGER_HPP_INCLUDED
 
-#include "catch_platform.hpp"
+#include "catch_platform.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
     bool isDebuggerActive();

@@ -5,11 +5,11 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_exception_translator_registry.hpp"
-#include "catch_compiler_capabilities.hpp"
-#include "catch_enforce.hpp"
-#include "catch_test_failure_exception.hpp"
-#include "catch_move_and_forward.hpp"
+#include "catch_exception_translator_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_test_failure_exception.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <exception>
 

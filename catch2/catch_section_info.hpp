@@ -8,10 +8,10 @@
 #ifndef CATCH_SECTION_INFO_HPP_INCLUDED
 #define CATCH_SECTION_INFO_HPP_INCLUDED
 
-#include "internal/catch_move_and_forward.hpp"
-#include "internal/catch_source_line_info.hpp"
-#include "internal/catch_stringref.hpp"
-#include "catch_totals.hpp"
+#include "internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_source_line_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_totals.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 

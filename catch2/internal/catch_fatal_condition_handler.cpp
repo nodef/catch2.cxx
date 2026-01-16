@@ -24,14 +24,14 @@
  * below will need to be updated taking these assumptions into account.
  */
 
-#include "catch_fatal_condition_handler.hpp"
+#include "catch_fatal_condition_handler.hpp"  // Adjust to relative path (@wolfram77)
 
-#include "catch_compiler_capabilities.hpp"
-#include "catch_context.hpp"
-#include "catch_enforce.hpp"
-#include "../interfaces/catch_interfaces_capture.hpp"
-#include "catch_windows_h_proxy.hpp"
-#include "catch_stdstreams.hpp"
+#include "catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_context.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_capture.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_windows_h_proxy.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_stdstreams.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <algorithm>
 

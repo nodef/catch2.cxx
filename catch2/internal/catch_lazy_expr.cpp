@@ -6,8 +6,8 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_lazy_expr.hpp"
-#include "catch_decomposer.hpp"
+#include "catch_lazy_expr.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_decomposer.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

@@ -10,12 +10,12 @@
 #ifndef CATCH_EXECUTION_PLAN_HPP_INCLUDED
 #define CATCH_EXECUTION_PLAN_HPP_INCLUDED
 
-#include "../interfaces/catch_interfaces_config.hpp"
-#include "catch_clock.hpp"
-#include "catch_environment.hpp"
-#include "detail/catch_benchmark_function.hpp"
-#include "detail/catch_repeat.hpp"
-#include "detail/catch_run_for_at_least.hpp"
+#include "../interfaces/catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_clock.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_environment.hpp"  // Adjust to relative path (@wolfram77)
+#include "detail/catch_benchmark_function.hpp"  // Adjust to relative path (@wolfram77)
+#include "detail/catch_repeat.hpp"  // Adjust to relative path (@wolfram77)
+#include "detail/catch_run_for_at_least.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <vector>
 

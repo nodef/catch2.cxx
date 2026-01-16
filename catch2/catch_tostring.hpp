@@ -14,11 +14,11 @@
 #include <type_traits>
 #include <string>
 
-#include "internal/catch_compiler_capabilities.hpp"
-#include "internal/catch_config_wchar.hpp"
-#include "internal/catch_reusable_string_stream.hpp"
-#include "internal/catch_void_type.hpp"
-#include "interfaces/catch_interfaces_enum_values_registry.hpp"
+#include "internal/catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_config_wchar.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_reusable_string_stream.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_void_type.hpp"  // Adjust to relative path (@wolfram77)
+#include "interfaces/catch_interfaces_enum_values_registry.hpp"  // Adjust to relative path (@wolfram77)
 
 #ifdef CATCH_CONFIG_CPP17_STRING_VIEW
 #include <string_view>
@@ -630,7 +630,7 @@ struct ratio_string<std::milli> {
     };
 }
 
-#include "interfaces/catch_interfaces_registry_hub.hpp"
+#include "interfaces/catch_interfaces_registry_hub.hpp"  // Adjust to relative path (@wolfram77)
 
 #define INTERNAL_CATCH_REGISTER_ENUM( enumName, ... ) \
 namespace Catch { \

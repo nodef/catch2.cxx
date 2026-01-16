@@ -8,9 +8,9 @@
 #ifndef CATCH_REPORTER_SPEC_PARSER_HPP_INCLUDED
 #define CATCH_REPORTER_SPEC_PARSER_HPP_INCLUDED
 
-#include "../interfaces/catch_interfaces_config.hpp"
-#include "catch_optional.hpp"
-#include "catch_stringref.hpp"
+#include "../interfaces/catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_optional.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <map>
 #include <string>

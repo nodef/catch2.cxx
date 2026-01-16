@@ -8,12 +8,12 @@
 #ifndef CATCH_DECOMPOSER_HPP_INCLUDED
 #define CATCH_DECOMPOSER_HPP_INCLUDED
 
-#include "../catch_tostring.hpp"
-#include "catch_stringref.hpp"
-#include "catch_compare_traits.hpp"
-#include "catch_test_failure_exception.hpp"
-#include "catch_logical_traits.hpp"
-#include "catch_compiler_capabilities.hpp"
+#include "../catch_tostring.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_compare_traits.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_test_failure_exception.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_logical_traits.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <type_traits>
 #include <iosfwd>

@@ -8,10 +8,10 @@
 #ifndef CATCH_MESSAGE_INFO_HPP_INCLUDED
 #define CATCH_MESSAGE_INFO_HPP_INCLUDED
 
-#include "catch_deprecation_macro.hpp"
-#include "catch_result_type.hpp"
-#include "catch_source_line_info.hpp"
-#include "catch_stringref.hpp"
+#include "catch_deprecation_macro.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_result_type.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_source_line_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 

@@ -6,8 +6,8 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_interfaces_generatortracker.hpp"
-#include "../generators/catch_generators.hpp"
+#include "catch_interfaces_generatortracker.hpp"  // Adjust to relative path (@wolfram77)
+#include "../generators/catch_generators.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 

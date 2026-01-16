@@ -5,10 +5,10 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_matchers_string.hpp"
-#include "../internal/catch_string_manip.hpp"
-#include "../catch_tostring.hpp"
-#include "../internal/catch_move_and_forward.hpp"
+#include "catch_matchers_string.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_string_manip.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_tostring.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <regex>
 

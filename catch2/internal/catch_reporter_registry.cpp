@@ -6,20 +6,20 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "../interfaces/catch_interfaces_reporter_factory.hpp"
-#include "catch_enforce.hpp"
-#include "catch_move_and_forward.hpp"
-#include "catch_reporter_registry.hpp"
-#include "../reporters/catch_reporter_automake.hpp"
-#include "../reporters/catch_reporter_compact.hpp"
-#include "../reporters/catch_reporter_console.hpp"
-#include "../reporters/catch_reporter_json.hpp"
-#include "../reporters/catch_reporter_junit.hpp"
-#include "../reporters/catch_reporter_registrars.hpp"
-#include "../reporters/catch_reporter_sonarqube.hpp"
-#include "../reporters/catch_reporter_tap.hpp"
-#include "../reporters/catch_reporter_teamcity.hpp"
-#include "../reporters/catch_reporter_xml.hpp"
+#include "../interfaces/catch_interfaces_reporter_factory.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "../reporters/catch_reporter_automake.hpp"  // Adjust to relative path (@wolfram77)
+#include "../reporters/catch_reporter_compact.hpp"  // Adjust to relative path (@wolfram77)
+#include "../reporters/catch_reporter_console.hpp"  // Adjust to relative path (@wolfram77)
+#include "../reporters/catch_reporter_json.hpp"  // Adjust to relative path (@wolfram77)
+#include "../reporters/catch_reporter_junit.hpp"  // Adjust to relative path (@wolfram77)
+#include "../reporters/catch_reporter_registrars.hpp"  // Adjust to relative path (@wolfram77)
+#include "../reporters/catch_reporter_sonarqube.hpp"  // Adjust to relative path (@wolfram77)
+#include "../reporters/catch_reporter_tap.hpp"  // Adjust to relative path (@wolfram77)
+#include "../reporters/catch_reporter_teamcity.hpp"  // Adjust to relative path (@wolfram77)
+#include "../reporters/catch_reporter_xml.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
     struct ReporterRegistry::ReporterRegistryImpl {

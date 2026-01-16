@@ -6,11 +6,11 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_tostring.hpp"
-#include "interfaces/catch_interfaces_config.hpp"
-#include "interfaces/catch_interfaces_registry_hub.hpp"
-#include "internal/catch_context.hpp"
-#include "internal/catch_polyfills.hpp"
+#include "catch_tostring.hpp"  // Adjust to relative path (@wolfram77)
+#include "interfaces/catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "interfaces/catch_interfaces_registry_hub.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_context.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_polyfills.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <iomanip>
 

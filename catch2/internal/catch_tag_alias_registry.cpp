@@ -5,10 +5,10 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_tag_alias_registry.hpp"
-#include "catch_enforce.hpp"
-#include "../interfaces/catch_interfaces_registry_hub.hpp"
-#include "catch_string_manip.hpp"
+#include "catch_tag_alias_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_registry_hub.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_string_manip.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

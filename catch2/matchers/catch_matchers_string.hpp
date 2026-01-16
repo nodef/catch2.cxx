@@ -8,9 +8,9 @@
 #ifndef CATCH_MATCHERS_STRING_HPP_INCLUDED
 #define CATCH_MATCHERS_STRING_HPP_INCLUDED
 
-#include "../internal/catch_stringref.hpp"
-#include "catch_matchers.hpp"
-#include "../catch_case_sensitive.hpp"
+#include "../internal/catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_matchers.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_case_sensitive.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 

@@ -8,8 +8,8 @@
 #ifndef CATCH_INTERFACES_CONFIG_HPP_INCLUDED
 #define CATCH_INTERFACES_CONFIG_HPP_INCLUDED
 
-#include "../internal/catch_noncopyable.hpp"
-#include "../internal/catch_stringref.hpp"
+#include "../internal/catch_noncopyable.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <chrono>
 #include <string>

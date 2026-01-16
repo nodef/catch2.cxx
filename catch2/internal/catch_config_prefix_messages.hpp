@@ -20,7 +20,7 @@
 #ifndef CATCH_CONFIG_PREFIX_MESSAGES_HPP_INCLUDED
 #define CATCH_CONFIG_PREFIX_MESSAGES_HPP_INCLUDED
 
-#include "../catch_user_config.hpp"
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
 
 #if defined(CATCH_CONFIG_PREFIX_ALL) && !defined(CATCH_CONFIG_PREFIX_MESSAGES)
     #define CATCH_CONFIG_PREFIX_MESSAGES

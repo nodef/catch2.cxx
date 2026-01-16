@@ -6,9 +6,9 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_leak_detector.hpp"
-#include "../interfaces/catch_interfaces_registry_hub.hpp"
-#include "../catch_user_config.hpp"
+#include "catch_leak_detector.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_registry_hub.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
 
 #ifdef CATCH_CONFIG_WINDOWS_CRTDBG
 #include <crtdbg.h>

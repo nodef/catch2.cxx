@@ -5,11 +5,11 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_test_case_info.hpp"
-#include "internal/catch_enforce.hpp"
-#include "internal/catch_string_manip.hpp"
-#include "internal/catch_case_insensitive_comparisons.hpp"
-#include "internal/catch_test_registry.hpp"
+#include "catch_test_case_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_string_manip.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_case_insensitive_comparisons.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_test_registry.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cassert>
 #include <cctype>

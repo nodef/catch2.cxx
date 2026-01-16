@@ -5,14 +5,14 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_reporter_sonarqube.hpp"
+#include "catch_reporter_sonarqube.hpp"  // Adjust to relative path (@wolfram77)
 
-#include "../internal/catch_string_manip.hpp"
-#include "../catch_test_case_info.hpp"
-#include "../internal/catch_reusable_string_stream.hpp"
-#include "../interfaces/catch_interfaces_config.hpp"
-#include "../catch_test_spec.hpp"
-#include "catch_reporter_helpers.hpp"
+#include "../internal/catch_string_manip.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_test_case_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_reusable_string_stream.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_test_spec.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reporter_helpers.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <map>
 

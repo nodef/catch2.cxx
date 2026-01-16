@@ -7,12 +7,12 @@
 // SPDX-License-Identifier: BSL-1.0
 // Adapted from donated nonius code.
 
-#include "catch_stats.hpp"
+#include "catch_stats.hpp"  // Adjust to relative path (@wolfram77)
 
-#include "../../internal/catch_compiler_capabilities.hpp"
-#include "../../internal/catch_floating_point_helpers.hpp"
-#include "../../internal/catch_random_number_generator.hpp"
-#include "../../internal/catch_uniform_integer_distribution.hpp"
+#include "../../internal/catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "../../internal/catch_floating_point_helpers.hpp"  // Adjust to relative path (@wolfram77)
+#include "../../internal/catch_random_number_generator.hpp"  // Adjust to relative path (@wolfram77)
+#include "../../internal/catch_uniform_integer_distribution.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <algorithm>
 #include <cassert>

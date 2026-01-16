@@ -8,14 +8,14 @@
 #ifndef CATCH_THREAD_SUPPORT_HPP_INCLUDED
 #define CATCH_THREAD_SUPPORT_HPP_INCLUDED
 
-#include "../catch_user_config.hpp"
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
 
 #if defined( CATCH_CONFIG_THREAD_SAFE_ASSERTIONS )
 #    include <atomic>
 #    include <mutex>
 #endif
 
-#include "../catch_totals.hpp"
+#include "../catch_totals.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
     namespace Detail {

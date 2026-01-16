@@ -8,7 +8,7 @@
 #ifndef CATCH_STRINGREF_HPP_INCLUDED
 #define CATCH_STRINGREF_HPP_INCLUDED
 
-#include "catch_lifetimebound.hpp"
+#include "catch_lifetimebound.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cstddef>
 #include <string>

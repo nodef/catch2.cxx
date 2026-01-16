@@ -5,10 +5,10 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_section.hpp"
-#include "../interfaces/catch_interfaces_capture.hpp"
-#include "catch_uncaught_exceptions.hpp"
-#include "catch_move_and_forward.hpp"
+#include "catch_section.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_capture.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_uncaught_exceptions.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

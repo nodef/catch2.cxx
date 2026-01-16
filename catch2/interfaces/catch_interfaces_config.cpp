@@ -6,7 +6,7 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_interfaces_config.hpp"
+#include "catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
     IConfig::~IConfig() = default;

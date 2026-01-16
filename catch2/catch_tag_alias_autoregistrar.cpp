@@ -6,9 +6,9 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_tag_alias_autoregistrar.hpp"
-#include "internal/catch_compiler_capabilities.hpp"
-#include "interfaces/catch_interfaces_registry_hub.hpp"
+#include "catch_tag_alias_autoregistrar.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "interfaces/catch_interfaces_registry_hub.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

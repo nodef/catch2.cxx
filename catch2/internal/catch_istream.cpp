@@ -6,11 +6,11 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_istream.hpp"
-#include "catch_enforce.hpp"
-#include "catch_debug_console.hpp"
-#include "catch_unique_ptr.hpp"
-#include "catch_stdstreams.hpp"
+#include "catch_istream.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_debug_console.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_stdstreams.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cstdio>
 #include <fstream>

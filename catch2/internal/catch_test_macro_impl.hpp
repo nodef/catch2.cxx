@@ -8,12 +8,12 @@
 #ifndef CATCH_TEST_MACRO_IMPL_HPP_INCLUDED
 #define CATCH_TEST_MACRO_IMPL_HPP_INCLUDED
 
-#include "../catch_user_config.hpp"
-#include "catch_assertion_handler.hpp"
-#include "catch_preprocessor_internal_stringify.hpp"
-#include "../interfaces/catch_interfaces_capture.hpp"
-#include "catch_stringref.hpp"
-#include "catch_source_line_info.hpp"
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_assertion_handler.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_preprocessor_internal_stringify.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_capture.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_source_line_info.hpp"  // Adjust to relative path (@wolfram77)
 
 // We need this suppression to leak, because it took until GCC 10
 // for the front end to handle local suppression via _Pragma properly

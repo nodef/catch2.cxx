@@ -5,7 +5,7 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_source_line_info.hpp"
+#include "catch_source_line_info.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cstring>
 #include <ostream>

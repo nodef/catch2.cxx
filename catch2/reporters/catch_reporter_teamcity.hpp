@@ -8,8 +8,8 @@
 #ifndef CATCH_REPORTER_TEAMCITY_HPP_INCLUDED
 #define CATCH_REPORTER_TEAMCITY_HPP_INCLUDED
 
-#include "catch_reporter_streaming_base.hpp"
-#include "../catch_timer.hpp"
+#include "catch_reporter_streaming_base.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_timer.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cstring>
 

@@ -5,9 +5,9 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_assertion_result.hpp"
-#include "internal/catch_reusable_string_stream.hpp"
-#include "internal/catch_move_and_forward.hpp"
+#include "catch_assertion_result.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_reusable_string_stream.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

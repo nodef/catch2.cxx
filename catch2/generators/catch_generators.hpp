@@ -8,12 +8,12 @@
 #ifndef CATCH_GENERATORS_HPP_INCLUDED
 #define CATCH_GENERATORS_HPP_INCLUDED
 
-#include "../catch_tostring.hpp"
-#include "../interfaces/catch_interfaces_generatortracker.hpp"
-#include "../internal/catch_source_line_info.hpp"
-#include "../internal/catch_stringref.hpp"
-#include "../internal/catch_move_and_forward.hpp"
-#include "../internal/catch_unique_name.hpp"
+#include "../catch_tostring.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_generatortracker.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_source_line_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_unique_name.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <vector>
 #include <tuple>

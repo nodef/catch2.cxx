@@ -18,7 +18,7 @@
 #ifndef CATCH_CONFIG_STATIC_ANALYSIS_SUPPORT_HPP_INCLUDED
 #define CATCH_CONFIG_STATIC_ANALYSIS_SUPPORT_HPP_INCLUDED
 
-#include "../catch_user_config.hpp"
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
 
 #if defined(__clang_analyzer__) || defined(__COVERITY__)
     #define CATCH_INTERNAL_CONFIG_STATIC_ANALYSIS_SUPPORT

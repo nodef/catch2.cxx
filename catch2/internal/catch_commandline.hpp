@@ -8,7 +8,7 @@
 #ifndef CATCH_COMMANDLINE_HPP_INCLUDED
 #define CATCH_COMMANDLINE_HPP_INCLUDED
 
-#include "catch_clara.hpp"
+#include "catch_clara.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

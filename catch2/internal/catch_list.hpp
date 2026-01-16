@@ -8,7 +8,7 @@
 #ifndef CATCH_LIST_HPP_INCLUDED
 #define CATCH_LIST_HPP_INCLUDED
 
-#include "catch_stringref.hpp"
+#include "catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <set>
 #include <string>

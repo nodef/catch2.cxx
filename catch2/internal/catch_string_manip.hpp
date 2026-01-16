@@ -8,8 +8,8 @@
 #ifndef CATCH_STRING_MANIP_HPP_INCLUDED
 #define CATCH_STRING_MANIP_HPP_INCLUDED
 
-#include "catch_lifetimebound.hpp"
-#include "catch_stringref.hpp"
+#include "catch_lifetimebound.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cstdint>
 #include <string>

@@ -6,8 +6,8 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_translate_exception.hpp"
-#include "interfaces/catch_interfaces_registry_hub.hpp"
+#include "catch_translate_exception.hpp"  // Adjust to relative path (@wolfram77)
+#include "interfaces/catch_interfaces_registry_hub.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
     namespace Detail {

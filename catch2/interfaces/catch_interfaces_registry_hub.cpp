@@ -6,7 +6,7 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_interfaces_registry_hub.hpp"
+#include "catch_interfaces_registry_hub.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
     IRegistryHub::~IRegistryHub() = default;

@@ -8,9 +8,9 @@
 #ifndef CATCH_MATCHERS_HPP_INCLUDED
 #define CATCH_MATCHERS_HPP_INCLUDED
 
-#include "internal/catch_matchers_impl.hpp"
-#include "../internal/catch_move_and_forward.hpp"
-#include "../internal/catch_lifetimebound.hpp"
+#include "internal/catch_matchers_impl.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_lifetimebound.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 #include <vector>

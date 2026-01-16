@@ -6,9 +6,9 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_compiler_capabilities.hpp"
-#include "catch_parse_numbers.hpp"
-#include "catch_string_manip.hpp"
+#include "catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_parse_numbers.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_string_manip.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <limits>
 #include <stdexcept>

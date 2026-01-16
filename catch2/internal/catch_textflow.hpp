@@ -8,8 +8,8 @@
 #ifndef CATCH_TEXTFLOW_HPP_INCLUDED
 #define CATCH_TEXTFLOW_HPP_INCLUDED
 
-#include "catch_console_width.hpp"
-#include "catch_move_and_forward.hpp"
+#include "catch_console_width.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cassert>
 #include <string>

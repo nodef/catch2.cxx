@@ -6,8 +6,8 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "../catch_test_case_info.hpp"
-#include "catch_test_case_info_hasher.hpp"
+#include "../catch_test_case_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_test_case_info_hasher.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
     TestCaseInfoHasher::TestCaseInfoHasher( hash_t seed ): m_seed( seed ) {}

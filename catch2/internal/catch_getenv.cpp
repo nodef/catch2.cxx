@@ -6,10 +6,10 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_getenv.hpp"
+#include "catch_getenv.hpp"  // Adjust to relative path (@wolfram77)
 
-#include "catch_platform.hpp"
-#include "catch_compiler_capabilities.hpp"
+#include "catch_platform.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cstdlib>
 

@@ -5,9 +5,9 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_approx.hpp"
-#include "internal/catch_enforce.hpp"
-#include "internal/catch_reusable_string_stream.hpp"
+#include "catch_approx.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_reusable_string_stream.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cmath>
 #include <limits>

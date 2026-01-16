@@ -5,12 +5,12 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_test_spec.hpp"
-#include "interfaces/catch_interfaces_testcase.hpp"
-#include "internal/catch_test_case_registry_impl.hpp"
-#include "internal/catch_reusable_string_stream.hpp"
-#include "internal/catch_string_manip.hpp"
-#include "catch_test_case_info.hpp"
+#include "catch_test_spec.hpp"  // Adjust to relative path (@wolfram77)
+#include "interfaces/catch_interfaces_testcase.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_test_case_registry_impl.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_reusable_string_stream.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_string_manip.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_test_case_info.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <algorithm>
 #include <string>

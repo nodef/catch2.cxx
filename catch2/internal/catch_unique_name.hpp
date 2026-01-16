@@ -8,7 +8,7 @@
 #ifndef CATCH_UNIQUE_NAME_HPP_INCLUDED
 #define CATCH_UNIQUE_NAME_HPP_INCLUDED
 
-#include "catch_config_counter.hpp"
+#include "catch_config_counter.hpp"  // Adjust to relative path (@wolfram77)
 #define INTERNAL_CATCH_UNIQUE_NAME_LINE2( name, line ) name##line
 #define INTERNAL_CATCH_UNIQUE_NAME_LINE( name, line ) INTERNAL_CATCH_UNIQUE_NAME_LINE2( name, line )
 #ifdef CATCH_CONFIG_COUNTER

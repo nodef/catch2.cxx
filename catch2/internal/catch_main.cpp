@@ -5,11 +5,11 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "../catch_session.hpp"
-#include "catch_compiler_capabilities.hpp"
-#include "catch_config_wchar.hpp"
-#include "catch_leak_detector.hpp"
-#include "catch_platform.hpp"
+#include "../catch_session.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_config_wchar.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_leak_detector.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_platform.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
     CATCH_INTERNAL_START_WARNINGS_SUPPRESSION

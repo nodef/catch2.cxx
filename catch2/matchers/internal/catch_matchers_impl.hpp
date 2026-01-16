@@ -8,11 +8,11 @@
 #ifndef CATCH_MATCHERS_IMPL_HPP_INCLUDED
 #define CATCH_MATCHERS_IMPL_HPP_INCLUDED
 
-#include "../../internal/catch_assertion_handler.hpp"
-#include "../../internal/catch_source_line_info.hpp"
-#include "../../internal/catch_decomposer.hpp"
-#include "../../internal/catch_preprocessor_internal_stringify.hpp"
-#include "../../internal/catch_move_and_forward.hpp"
+#include "../../internal/catch_assertion_handler.hpp"  // Adjust to relative path (@wolfram77)
+#include "../../internal/catch_source_line_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "../../internal/catch_decomposer.hpp"  // Adjust to relative path (@wolfram77)
+#include "../../internal/catch_preprocessor_internal_stringify.hpp"  // Adjust to relative path (@wolfram77)
+#include "../../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 

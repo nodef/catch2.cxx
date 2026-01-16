@@ -10,8 +10,8 @@
 #ifndef CATCH_ANALYSE_HPP_INCLUDED
 #define CATCH_ANALYSE_HPP_INCLUDED
 
-#include "../catch_clock.hpp"
-#include "../catch_sample_analysis.hpp"
+#include "../catch_clock.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_sample_analysis.hpp"  // Adjust to relative path (@wolfram77)
 
 
 namespace Catch {

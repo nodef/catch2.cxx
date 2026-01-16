@@ -8,8 +8,8 @@
 #ifndef CATCH_TAG_ALIAS_REGISTRY_HPP_INCLUDED
 #define CATCH_TAG_ALIAS_REGISTRY_HPP_INCLUDED
 
-#include "../interfaces/catch_interfaces_tag_alias_registry.hpp"
-#include "../catch_tag_alias.hpp"
+#include "../interfaces/catch_interfaces_tag_alias_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_tag_alias.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <map>
 #include <string>

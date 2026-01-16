@@ -8,7 +8,7 @@
 #ifndef CATCH_INTERFACES_ENUM_VALUES_REGISTRY_HPP_INCLUDED
 #define CATCH_INTERFACES_ENUM_VALUES_REGISTRY_HPP_INCLUDED
 
-#include "../internal/catch_stringref.hpp"
+#include "../internal/catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <vector>
 

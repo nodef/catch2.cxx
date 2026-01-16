@@ -22,16 +22,16 @@
 #ifndef CATCH_INTERFACES_ALL_HPP_INCLUDED
 #define CATCH_INTERFACES_ALL_HPP_INCLUDED
 
-#include "catch_interfaces_capture.hpp"
-#include "catch_interfaces_config.hpp"
-#include "catch_interfaces_enum_values_registry.hpp"
-#include "catch_interfaces_exception.hpp"
-#include "catch_interfaces_generatortracker.hpp"
-#include "catch_interfaces_registry_hub.hpp"
-#include "catch_interfaces_reporter.hpp"
-#include "catch_interfaces_reporter_factory.hpp"
-#include "catch_interfaces_tag_alias_registry.hpp"
-#include "catch_interfaces_test_invoker.hpp"
-#include "catch_interfaces_testcase.hpp"
+#include "catch_interfaces_capture.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_interfaces_enum_values_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_interfaces_exception.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_interfaces_generatortracker.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_interfaces_registry_hub.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_interfaces_reporter.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_interfaces_reporter_factory.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_interfaces_tag_alias_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_interfaces_test_invoker.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_interfaces_testcase.hpp"  // Adjust to relative path (@wolfram77)
 
 #endif // CATCH_INTERFACES_ALL_HPP_INCLUDED

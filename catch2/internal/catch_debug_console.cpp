@@ -6,13 +6,13 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_debug_console.hpp"
+#include "catch_debug_console.hpp"  // Adjust to relative path (@wolfram77)
 
-#include "catch_config_android_logwrite.hpp"
-#include "catch_platform.hpp"
-#include "catch_windows_h_proxy.hpp"
-#include "../catch_user_config.hpp"
-#include "catch_stdstreams.hpp"
+#include "catch_config_android_logwrite.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_platform.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_windows_h_proxy.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_stdstreams.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <ostream>
 

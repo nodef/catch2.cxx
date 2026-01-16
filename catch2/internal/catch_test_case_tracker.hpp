@@ -8,10 +8,10 @@
 #ifndef CATCH_TEST_CASE_TRACKER_HPP_INCLUDED
 #define CATCH_TEST_CASE_TRACKER_HPP_INCLUDED
 
-#include "catch_lifetimebound.hpp"
-#include "catch_source_line_info.hpp"
-#include "catch_unique_ptr.hpp"
-#include "catch_stringref.hpp"
+#include "catch_lifetimebound.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_source_line_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 #include <vector>

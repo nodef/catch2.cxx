@@ -8,7 +8,7 @@
 #ifndef CATCH_REUSABLE_STRING_STREAM_HPP_INCLUDED
 #define CATCH_REUSABLE_STRING_STREAM_HPP_INCLUDED
 
-#include "catch_noncopyable.hpp"
+#include "catch_noncopyable.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <iosfwd>
 #include <cstddef>

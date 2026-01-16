@@ -5,11 +5,11 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_reporter_multi.hpp"
+#include "catch_reporter_multi.hpp"  // Adjust to relative path (@wolfram77)
 
-#include "../catch_config.hpp"
-#include "../internal/catch_move_and_forward.hpp"
-#include "../internal/catch_stdstreams.hpp"
+#include "../catch_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_stdstreams.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <ostream>
 

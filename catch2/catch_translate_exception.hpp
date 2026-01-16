@@ -8,9 +8,9 @@
 #ifndef CATCH_TRANSLATE_EXCEPTION_HPP_INCLUDED
 #define CATCH_TRANSLATE_EXCEPTION_HPP_INCLUDED
 
-#include "interfaces/catch_interfaces_exception.hpp"
-#include "internal/catch_compiler_capabilities.hpp"
-#include "internal/catch_unique_name.hpp"
+#include "interfaces/catch_interfaces_exception.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_unique_name.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <exception>
 

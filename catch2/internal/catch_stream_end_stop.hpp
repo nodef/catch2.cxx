@@ -8,7 +8,7 @@
 #ifndef CATCH_STREAM_END_STOP_HPP_INCLUDED
 #define CATCH_STREAM_END_STOP_HPP_INCLUDED
 
-#include "catch_stringref.hpp"
+#include "catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

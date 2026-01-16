@@ -8,8 +8,8 @@
 #ifndef CATCH_REPORTER_REGISTRY_HPP_INCLUDED
 #define CATCH_REPORTER_REGISTRY_HPP_INCLUDED
 
-#include "catch_case_insensitive_comparisons.hpp"
-#include "catch_unique_ptr.hpp"
+#include "catch_case_insensitive_comparisons.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <map>
 #include <string>

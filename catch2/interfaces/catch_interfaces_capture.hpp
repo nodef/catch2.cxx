@@ -10,11 +10,11 @@
 
 #include <string>
 
-#include "../internal/catch_context.hpp"
-#include "../internal/catch_stringref.hpp"
-#include "../internal/catch_result_type.hpp"
-#include "../internal/catch_unique_ptr.hpp"
-#include "../benchmark/detail/catch_benchmark_stats_fwd.hpp"
+#include "../internal/catch_context.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_result_type.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
+#include "../benchmark/detail/catch_benchmark_stats_fwd.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

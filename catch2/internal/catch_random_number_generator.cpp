@@ -5,7 +5,7 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_random_number_generator.hpp"
+#include "catch_random_number_generator.hpp"  // Adjust to relative path (@wolfram77)
 
 #if defined( __clang__ )
 #    define CATCH2_CLANG_NO_SANITIZE_INTEGER \

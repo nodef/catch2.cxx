@@ -8,11 +8,11 @@
 #ifndef CATCH_TEST_CASE_INFO_HPP_INCLUDED
 #define CATCH_TEST_CASE_INFO_HPP_INCLUDED
 
-#include "interfaces/catch_interfaces_test_invoker.hpp"
-#include "internal/catch_source_line_info.hpp"
-#include "internal/catch_noncopyable.hpp"
-#include "internal/catch_stringref.hpp"
-#include "internal/catch_unique_ptr.hpp"
+#include "interfaces/catch_interfaces_test_invoker.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_source_line_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_noncopyable.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
 
 
 #include <cstdint>

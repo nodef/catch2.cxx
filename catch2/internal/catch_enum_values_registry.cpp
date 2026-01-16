@@ -5,8 +5,8 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_enum_values_registry.hpp"
-#include "catch_string_manip.hpp"
+#include "catch_enum_values_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_string_manip.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cassert>
 

@@ -8,8 +8,8 @@
 #ifndef CATCH_ISTREAM_HPP_INCLUDED
 #define CATCH_ISTREAM_HPP_INCLUDED
 
-#include "catch_noncopyable.hpp"
-#include "catch_unique_ptr.hpp"
+#include "catch_noncopyable.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <iosfwd>
 #include <string>

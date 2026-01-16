@@ -17,7 +17,7 @@
 #ifndef CATCH_CONFIG_ANDROID_LOGWRITE_HPP_INCLUDED
 #define CATCH_CONFIG_ANDROID_LOGWRITE_HPP_INCLUDED
 
-#include "../catch_user_config.hpp"
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
 
 #if defined(__ANDROID__)
 #    define CATCH_INTERNAL_CONFIG_ANDROID_LOGWRITE

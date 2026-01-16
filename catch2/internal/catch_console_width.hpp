@@ -10,7 +10,7 @@
 
 // This include must be kept so that user's configured value for CONSOLE_WIDTH
 // is used before we attempt to provide a default value
-#include "../catch_user_config.hpp"
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
 
 #ifndef CATCH_CONFIG_CONSOLE_WIDTH
 #define CATCH_CONFIG_CONSOLE_WIDTH 80

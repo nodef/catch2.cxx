@@ -17,7 +17,7 @@
 #ifndef CATCH_CONFIG_UNCAUGHT_EXCEPTIONS_HPP_INCLUDED
 #define CATCH_CONFIG_UNCAUGHT_EXCEPTIONS_HPP_INCLUDED
 
-#include "../catch_user_config.hpp"
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
 
 #if defined(_MSC_VER)
 #  if _MSC_VER >= 1900 // Visual Studio 2015 or newer

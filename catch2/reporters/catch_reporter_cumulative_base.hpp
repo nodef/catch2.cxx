@@ -8,10 +8,10 @@
 #ifndef CATCH_REPORTER_CUMULATIVE_BASE_HPP_INCLUDED
 #define CATCH_REPORTER_CUMULATIVE_BASE_HPP_INCLUDED
 
-#include "catch_reporter_common_base.hpp"
-#include "../internal/catch_move_and_forward.hpp"
-#include "../internal/catch_unique_ptr.hpp"
-#include "../internal/catch_optional.hpp"
+#include "catch_reporter_common_base.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_optional.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 #include <vector>

@@ -5,8 +5,8 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_reporter_automake.hpp"
-#include "../catch_test_case_info.hpp"
+#include "catch_reporter_automake.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_test_case_info.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <ostream>
 

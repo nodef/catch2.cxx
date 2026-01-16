@@ -5,25 +5,25 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_session.hpp"
-#include "internal/catch_console_colour.hpp"
-#include "internal/catch_enforce.hpp"
-#include "internal/catch_list.hpp"
-#include "internal/catch_context.hpp"
-#include "internal/catch_run_context.hpp"
-#include "catch_test_spec.hpp"
-#include "catch_version.hpp"
-#include "internal/catch_startup_exception_registry.hpp"
-#include "internal/catch_sharding.hpp"
-#include "internal/catch_test_case_registry_impl.hpp"
-#include "internal/catch_textflow.hpp"
-#include "internal/catch_windows_h_proxy.hpp"
-#include "reporters/catch_reporter_multi.hpp"
-#include "internal/catch_reporter_registry.hpp"
-#include "interfaces/catch_interfaces_reporter_factory.hpp"
-#include "internal/catch_move_and_forward.hpp"
-#include "internal/catch_stdstreams.hpp"
-#include "internal/catch_istream.hpp"
+#include "catch_session.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_console_colour.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_list.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_context.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_run_context.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_test_spec.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_version.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_startup_exception_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_sharding.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_test_case_registry_impl.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_textflow.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_windows_h_proxy.hpp"  // Adjust to relative path (@wolfram77)
+#include "reporters/catch_reporter_multi.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_reporter_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "interfaces/catch_interfaces_reporter_factory.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_stdstreams.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_istream.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cassert>
 #include <cstdio>

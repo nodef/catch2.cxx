@@ -6,8 +6,8 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_case_insensitive_comparisons.hpp"
-#include "catch_string_manip.hpp"
+#include "catch_case_insensitive_comparisons.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_string_manip.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <algorithm>
 

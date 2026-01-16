@@ -5,10 +5,10 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_reusable_string_stream.hpp"
-#include "catch_singletons.hpp"
-#include "catch_thread_support.hpp"
-#include "catch_unique_ptr.hpp"
+#include "catch_reusable_string_stream.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_singletons.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_thread_support.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cstdio>
 #include <sstream>

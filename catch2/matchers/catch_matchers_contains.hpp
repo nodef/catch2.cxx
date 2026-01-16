@@ -8,8 +8,8 @@
 #ifndef CATCH_MATCHERS_CONTAINS_HPP_INCLUDED
 #define CATCH_MATCHERS_CONTAINS_HPP_INCLUDED
 
-#include "catch_matchers_templated.hpp"
-#include "../internal/catch_move_and_forward.hpp"
+#include "catch_matchers_templated.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <functional>
 #include <type_traits>

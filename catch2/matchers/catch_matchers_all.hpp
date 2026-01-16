@@ -20,17 +20,17 @@
 #ifndef CATCH_MATCHERS_ALL_HPP_INCLUDED
 #define CATCH_MATCHERS_ALL_HPP_INCLUDED
 
-#include "catch_matchers.hpp"
-#include "catch_matchers_container_properties.hpp"
-#include "catch_matchers_contains.hpp"
-#include "catch_matchers_exception.hpp"
-#include "catch_matchers_floating_point.hpp"
-#include "catch_matchers_predicate.hpp"
-#include "catch_matchers_quantifiers.hpp"
-#include "catch_matchers_range_equals.hpp"
-#include "catch_matchers_string.hpp"
-#include "catch_matchers_templated.hpp"
-#include "catch_matchers_vector.hpp"
-#include "internal/catch_matchers_impl.hpp"
+#include "catch_matchers.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_matchers_container_properties.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_matchers_contains.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_matchers_exception.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_matchers_floating_point.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_matchers_predicate.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_matchers_quantifiers.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_matchers_range_equals.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_matchers_string.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_matchers_templated.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_matchers_vector.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_matchers_impl.hpp"  // Adjust to relative path (@wolfram77)
 
 #endif // CATCH_MATCHERS_ALL_HPP_INCLUDED

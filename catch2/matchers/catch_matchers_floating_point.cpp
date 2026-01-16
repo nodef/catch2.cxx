@@ -5,12 +5,12 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_matchers_floating_point.hpp"
-#include "../internal/catch_enforce.hpp"
-#include "../internal/catch_polyfills.hpp"
-#include "../internal/catch_to_string.hpp"
-#include "../catch_tostring.hpp"
-#include "../internal/catch_floating_point_helpers.hpp"
+#include "catch_matchers_floating_point.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_polyfills.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_to_string.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_tostring.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_floating_point_helpers.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <algorithm>
 #include <cmath>

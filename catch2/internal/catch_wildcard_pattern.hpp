@@ -8,7 +8,7 @@
 #ifndef CATCH_WILDCARD_PATTERN_HPP_INCLUDED
 #define CATCH_WILDCARD_PATTERN_HPP_INCLUDED
 
-#include "../catch_case_sensitive.hpp"
+#include "../catch_case_sensitive.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 

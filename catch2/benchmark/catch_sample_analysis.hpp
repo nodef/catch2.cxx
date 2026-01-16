@@ -10,9 +10,9 @@
 #ifndef CATCH_SAMPLE_ANALYSIS_HPP_INCLUDED
 #define CATCH_SAMPLE_ANALYSIS_HPP_INCLUDED
 
-#include "catch_estimate.hpp"
-#include "catch_outlier_classification.hpp"
-#include "catch_clock.hpp"
+#include "catch_estimate.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_outlier_classification.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_clock.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <vector>
 

@@ -8,7 +8,7 @@
 #ifndef CATCH_INTERFACES_REGISTRY_HUB_HPP_INCLUDED
 #define CATCH_INTERFACES_REGISTRY_HUB_HPP_INCLUDED
 
-#include "../internal/catch_unique_ptr.hpp"
+#include "../internal/catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 

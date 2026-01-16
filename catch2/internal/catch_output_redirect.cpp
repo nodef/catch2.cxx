@@ -5,12 +5,12 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_compiler_capabilities.hpp"
-#include "catch_enforce.hpp"
-#include "catch_output_redirect.hpp"
-#include "catch_platform.hpp"
-#include "catch_reusable_string_stream.hpp"
-#include "catch_stdstreams.hpp"
+#include "catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_output_redirect.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_platform.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_reusable_string_stream.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_stdstreams.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cstdio>
 #include <cstring>

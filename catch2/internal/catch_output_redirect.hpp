@@ -8,7 +8,7 @@
 #ifndef CATCH_OUTPUT_REDIRECT_HPP_INCLUDED
 #define CATCH_OUTPUT_REDIRECT_HPP_INCLUDED
 
-#include "catch_unique_ptr.hpp"
+#include "catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cassert>
 #include <string>

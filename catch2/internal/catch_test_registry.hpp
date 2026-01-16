@@ -8,14 +8,14 @@
 #ifndef CATCH_TEST_REGISTRY_HPP_INCLUDED
 #define CATCH_TEST_REGISTRY_HPP_INCLUDED
 
-#include "catch_config_static_analysis_support.hpp"
-#include "catch_source_line_info.hpp"
-#include "catch_noncopyable.hpp"
-#include "../interfaces/catch_interfaces_test_invoker.hpp"
-#include "catch_stringref.hpp"
-#include "catch_unique_ptr.hpp"
-#include "catch_unique_name.hpp"
-#include "catch_preprocessor_remove_parens.hpp"
+#include "catch_config_static_analysis_support.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_source_line_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_noncopyable.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_test_invoker.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_unique_name.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_preprocessor_remove_parens.hpp"  // Adjust to relative path (@wolfram77)
 
 // GCC 5 and older do not properly handle disabling unused-variable warning
 // with a _Pragma. This means that we have to leak the suppression to the

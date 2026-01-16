@@ -6,7 +6,7 @@
 
 // SPDX-License-Identifier: BSL-1.0
 
-#include "catch_matchers_predicate.hpp"
+#include "catch_matchers_predicate.hpp"  // Adjust to relative path (@wolfram77)
 
 std::string Catch::Matchers::Detail::finalizeDescription(const std::string& desc) {
     if (desc.empty()) {

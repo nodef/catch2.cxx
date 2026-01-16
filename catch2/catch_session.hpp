@@ -8,11 +8,11 @@
 #ifndef CATCH_SESSION_HPP_INCLUDED
 #define CATCH_SESSION_HPP_INCLUDED
 
-#include "internal/catch_commandline.hpp"
-#include "internal/catch_noncopyable.hpp"
-#include "catch_config.hpp"
-#include "internal/catch_unique_ptr.hpp"
-#include "internal/catch_config_wchar.hpp"
+#include "internal/catch_commandline.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_noncopyable.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
+#include "internal/catch_config_wchar.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

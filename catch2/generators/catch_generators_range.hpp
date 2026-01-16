@@ -8,7 +8,7 @@
 #ifndef CATCH_GENERATORS_RANGE_HPP_INCLUDED
 #define CATCH_GENERATORS_RANGE_HPP_INCLUDED
 
-#include "catch_generators.hpp"
+#include "catch_generators.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <iterator>
 #include <type_traits>

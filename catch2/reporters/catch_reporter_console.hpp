@@ -8,8 +8,8 @@
 #ifndef CATCH_REPORTER_CONSOLE_HPP_INCLUDED
 #define CATCH_REPORTER_CONSOLE_HPP_INCLUDED
 
-#include "catch_reporter_streaming_base.hpp"
-#include "../internal/catch_unique_ptr.hpp"
+#include "catch_reporter_streaming_base.hpp"  // Adjust to relative path (@wolfram77)
+#include "../internal/catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
     // Fwd decls

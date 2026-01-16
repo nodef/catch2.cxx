@@ -8,7 +8,7 @@
 #ifndef CATCH_MATCHERS_EXCEPTION_HPP_INCLUDED
 #define CATCH_MATCHERS_EXCEPTION_HPP_INCLUDED
 
-#include "catch_matchers.hpp"
+#include "catch_matchers.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 namespace Matchers {

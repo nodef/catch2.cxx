@@ -5,23 +5,23 @@
 //        https://www.boost.org/LICENSE_1_0.txt)
 
 // SPDX-License-Identifier: BSL-1.0
-#include "catch_run_context.hpp"
+#include "catch_run_context.hpp"  // Adjust to relative path (@wolfram77)
 
-#include "../catch_user_config.hpp"
-#include "../interfaces/catch_interfaces_config.hpp"
-#include "../interfaces/catch_interfaces_generatortracker.hpp"
-#include "../interfaces/catch_interfaces_reporter.hpp"
-#include "catch_compiler_capabilities.hpp"
-#include "catch_context.hpp"
-#include "catch_enforce.hpp"
-#include "catch_fatal_condition_handler.hpp"
-#include "catch_random_number_generator.hpp"
-#include "../catch_timer.hpp"
-#include "catch_output_redirect.hpp"
-#include "catch_assertion_handler.hpp"
-#include "catch_test_failure_exception.hpp"
-#include "catch_thread_local.hpp"
-#include "catch_result_type.hpp"
+#include "../catch_user_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_config.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_generatortracker.hpp"  // Adjust to relative path (@wolfram77)
+#include "../interfaces/catch_interfaces_reporter.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_context.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_enforce.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_fatal_condition_handler.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_random_number_generator.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_timer.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_output_redirect.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_assertion_handler.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_test_failure_exception.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_thread_local.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_result_type.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <cassert>
 #include <algorithm>

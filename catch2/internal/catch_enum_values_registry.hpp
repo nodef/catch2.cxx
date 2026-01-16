@@ -8,9 +8,9 @@
 #ifndef CATCH_ENUM_VALUES_REGISTRY_HPP_INCLUDED
 #define CATCH_ENUM_VALUES_REGISTRY_HPP_INCLUDED
 
-#include "../interfaces/catch_interfaces_enum_values_registry.hpp"
-#include "catch_unique_ptr.hpp"
-#include "catch_stringref.hpp"
+#include "../interfaces/catch_interfaces_enum_values_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_unique_ptr.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_stringref.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <vector>
 

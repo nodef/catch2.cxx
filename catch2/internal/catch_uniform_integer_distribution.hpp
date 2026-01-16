@@ -9,7 +9,7 @@
 #ifndef CATCH_UNIFORM_INTEGER_DISTRIBUTION_HPP_INCLUDED
 #define CATCH_UNIFORM_INTEGER_DISTRIBUTION_HPP_INCLUDED
 
-#include "catch_random_integer_helpers.hpp"
+#include "catch_random_integer_helpers.hpp"  // Adjust to relative path (@wolfram77)
 
 namespace Catch {
 

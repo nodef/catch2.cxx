@@ -8,11 +8,11 @@
 #ifndef CATCH_TEMPLATE_TEST_REGISTRY_HPP_INCLUDED
 #define CATCH_TEMPLATE_TEST_REGISTRY_HPP_INCLUDED
 
-#include "catch_test_registry.hpp"
-#include "catch_compiler_capabilities.hpp"
-#include "catch_preprocessor.hpp"
-#include "catch_meta.hpp"
-#include "catch_unique_name.hpp"
+#include "catch_test_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_compiler_capabilities.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_preprocessor.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_meta.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_unique_name.hpp"  // Adjust to relative path (@wolfram77)
 
 
 // GCC 5 and older do not properly handle disabling unused-variable warning

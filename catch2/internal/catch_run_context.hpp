@@ -8,19 +8,19 @@
 #ifndef CATCH_RUN_CONTEXT_HPP_INCLUDED
 #define CATCH_RUN_CONTEXT_HPP_INCLUDED
 
-#include "../interfaces/catch_interfaces_capture.hpp"
-#include "catch_test_registry.hpp"
-#include "../catch_test_run_info.hpp"
-#include "catch_fatal_condition_handler.hpp"
-#include "../catch_test_case_info.hpp"
-#include "../catch_message.hpp"
-#include "../catch_totals.hpp"
-#include "catch_test_case_tracker.hpp"
-#include "../catch_assertion_info.hpp"
-#include "../catch_assertion_result.hpp"
-#include "catch_optional.hpp"
-#include "catch_move_and_forward.hpp"
-#include "catch_thread_support.hpp"
+#include "../interfaces/catch_interfaces_capture.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_test_registry.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_test_run_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_fatal_condition_handler.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_test_case_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_message.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_totals.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_test_case_tracker.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_assertion_info.hpp"  // Adjust to relative path (@wolfram77)
+#include "../catch_assertion_result.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_optional.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
+#include "catch_thread_support.hpp"  // Adjust to relative path (@wolfram77)
 
 #include <string>
 
