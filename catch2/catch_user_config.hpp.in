@@ -16,6 +16,7 @@
 
 #ifndef CATCH_USER_CONFIG_HPP_INCLUDED
 #define CATCH_USER_CONFIG_HPP_INCLUDED
+#if 0  // Skip this file for use without build systems (@wolfram77)
 
 
 // ------
@@ -244,4 +245,5 @@
 // out about it from docs and set it only if they use it.
 #cmakedefine CATCH_CONFIG_FALLBACK_STRINGIFIER @CATCH_CONFIG_FALLBACK_STRINGIFIER@
 
+#endif // 0
 #endif // CATCH_USER_CONFIG_HPP_INCLUDED
