@@ -1,4 +1,3 @@
-
 //              Copyright Catch2 Authors
 // Distributed under the Boost Software License, Version 1.0.
 //   (See accompanying file LICENSE.txt or copy at
@@ -16,7 +15,6 @@
 
 #ifndef CATCH_USER_CONFIG_HPP_INCLUDED
 #define CATCH_USER_CONFIG_HPP_INCLUDED
-#if 0  // Skip this file for use without build systems (@wolfram77)
 
 
 // ------
@@ -25,180 +23,172 @@
 // Setting both Force Yes and Force No is an error
 // ------
 
-#cmakedefine CATCH_CONFIG_ANDROID_LOGWRITE
-#cmakedefine CATCH_CONFIG_NO_ANDROID_LOGWRITE
+// Default values for compilation flags
+#ifndef CATCH_CONFIG_NO_ANDROID_LOGWRITE
+// #define CATCH_CONFIG_ANDROID_LOGWRITE
+#endif
 
 #if defined( CATCH_CONFIG_ANDROID_LOGWRITE ) && \
     defined( CATCH_CONFIG_NO_ANDROID_LOGWRITE )
 #    error Cannot force ANDROID_LOGWRITE to both ON and OFF
 #endif
 
-#cmakedefine CATCH_CONFIG_COLOUR_WIN32
-#cmakedefine CATCH_CONFIG_NO_COLOUR_WIN32
+#ifndef CATCH_CONFIG_NO_COLOUR_WIN32
+// #define CATCH_CONFIG_COLOUR_WIN32
+#endif
 
 #if defined( CATCH_CONFIG_COLOUR_WIN32 ) && \
     defined( CATCH_CONFIG_NO_COLOUR_WIN32 )
 #    error Cannot force COLOUR_WIN32 to be ON and OFF
 #endif
 
-#cmakedefine CATCH_CONFIG_COUNTER
-#cmakedefine CATCH_CONFIG_NO_COUNTER
+#ifndef CATCH_CONFIG_NO_COUNTER
+// #define CATCH_CONFIG_COUNTER
+#endif
 
 #if defined( CATCH_CONFIG_COUNTER ) && \
     defined( CATCH_CONFIG_NO_COUNTER )
 #    error Cannot force COUNTER to both ON and OFF
 #endif
 
-
-
-#cmakedefine CATCH_CONFIG_CPP11_TO_STRING
-#cmakedefine CATCH_CONFIG_NO_CPP11_TO_STRING
+#ifndef CATCH_CONFIG_NO_CPP11_TO_STRING
+// #define CATCH_CONFIG_CPP11_TO_STRING
+#endif
 
 #if defined( CATCH_CONFIG_CPP11_TO_STRING ) && \
     defined( CATCH_CONFIG_NO_CPP11_TO_STRING )
 #    error Cannot force CPP11_TO_STRING to both ON and OFF
 #endif
 
-
-
-#cmakedefine CATCH_CONFIG_CPP17_BYTE
-#cmakedefine CATCH_CONFIG_NO_CPP17_BYTE
+#ifndef CATCH_CONFIG_NO_CPP17_BYTE
+// #define CATCH_CONFIG_CPP17_BYTE
+#endif
 
 #if defined( CATCH_CONFIG_CPP17_BYTE ) && \
     defined( CATCH_CONFIG_NO_CPP17_BYTE )
 #    error Cannot force CPP17_BYTE to both ON and OFF
 #endif
 
-
-
-#cmakedefine CATCH_CONFIG_CPP17_OPTIONAL
-#cmakedefine CATCH_CONFIG_NO_CPP17_OPTIONAL
+#ifndef CATCH_CONFIG_NO_CPP17_OPTIONAL
+// #define CATCH_CONFIG_CPP17_OPTIONAL
+#endif
 
 #if defined( CATCH_CONFIG_CPP17_OPTIONAL ) && \
     defined( CATCH_CONFIG_NO_CPP17_OPTIONAL )
 #    error Cannot force CPP17_OPTIONAL to both ON and OFF
 #endif
 
-
-
-#cmakedefine CATCH_CONFIG_CPP17_STRING_VIEW
-#cmakedefine CATCH_CONFIG_NO_CPP17_STRING_VIEW
+#ifndef CATCH_CONFIG_NO_CPP17_STRING_VIEW
+// #define CATCH_CONFIG_CPP17_STRING_VIEW
+#endif
 
 #if defined( CATCH_CONFIG_CPP17_STRING_VIEW ) && \
     defined( CATCH_CONFIG_NO_CPP17_STRING_VIEW )
 #    error Cannot force CPP17_STRING_VIEW to both ON and OFF
 #endif
 
-
-
-#cmakedefine CATCH_CONFIG_CPP17_UNCAUGHT_EXCEPTIONS
-#cmakedefine CATCH_CONFIG_NO_CPP17_UNCAUGHT_EXCEPTIONS
+#ifndef CATCH_CONFIG_NO_CPP17_UNCAUGHT_EXCEPTIONS
+// #define CATCH_CONFIG_CPP17_UNCAUGHT_EXCEPTIONS
+#endif
 
 #if defined( CATCH_CONFIG_CPP17_UNCAUGHT_EXCEPTIONS ) && \
     defined( CATCH_CONFIG_NO_CPP17_UNCAUGHT_EXCEPTIONS )
 #    error Cannot force CPP17_UNCAUGHT_EXCEPTIONS to both ON and OFF
 #endif
 
-
-
-#cmakedefine CATCH_CONFIG_CPP17_VARIANT
-#cmakedefine CATCH_CONFIG_NO_CPP17_VARIANT
+#ifndef CATCH_CONFIG_NO_CPP17_VARIANT
+// #define CATCH_CONFIG_CPP17_VARIANT
+#endif
 
 #if defined( CATCH_CONFIG_CPP17_VARIANT ) && \
     defined( CATCH_CONFIG_NO_CPP17_VARIANT )
 #    error Cannot force CPP17_VARIANT to both ON and OFF
 #endif
 
-
-
-#cmakedefine CATCH_CONFIG_GLOBAL_NEXTAFTER
-#cmakedefine CATCH_CONFIG_NO_GLOBAL_NEXTAFTER
+#ifndef CATCH_CONFIG_NO_GLOBAL_NEXTAFTER
+// #define CATCH_CONFIG_GLOBAL_NEXTAFTER
+#endif
 
 #if defined( CATCH_CONFIG_GLOBAL_NEXTAFTER ) && \
     defined( CATCH_CONFIG_NO_GLOBAL_NEXTAFTER )
 #    error Cannot force GLOBAL_NEXTAFTER to both ON and OFF
 #endif
 
-
-
-#cmakedefine CATCH_CONFIG_POSIX_SIGNALS
-#cmakedefine CATCH_CONFIG_NO_POSIX_SIGNALS
+#ifndef CATCH_CONFIG_NO_POSIX_SIGNALS
+// #define CATCH_CONFIG_POSIX_SIGNALS
+#endif
 
 #if defined( CATCH_CONFIG_POSIX_SIGNALS ) && \
     defined( CATCH_CONFIG_NO_POSIX_SIGNALS )
 #    error Cannot force POSIX_SIGNALS to both ON and OFF
 #endif
 
-
-
-#cmakedefine CATCH_CONFIG_GETENV
-#cmakedefine CATCH_CONFIG_NO_GETENV
+#ifndef CATCH_CONFIG_NO_GETENV
+// #define CATCH_CONFIG_GETENV
+#endif
 
 #if defined( CATCH_CONFIG_GETENV ) && \
     defined( CATCH_CONFIG_NO_GETENV )
 #    error Cannot force GETENV to both ON and OFF
 #endif
 
-
-
-#cmakedefine CATCH_CONFIG_USE_ASYNC
-#cmakedefine CATCH_CONFIG_NO_USE_ASYNC
+#ifndef CATCH_CONFIG_NO_USE_ASYNC
+// #define CATCH_CONFIG_USE_ASYNC
+#endif
 
 #if defined( CATCH_CONFIG_USE_ASYNC ) && \
     defined( CATCH_CONFIG_NO_USE_ASYNC )
 #    error Cannot force USE_ASYNC to both ON and OFF
 #endif
 
-
-
-#cmakedefine CATCH_CONFIG_WCHAR
-#cmakedefine CATCH_CONFIG_NO_WCHAR
+#ifndef CATCH_CONFIG_NO_WCHAR
+// #define CATCH_CONFIG_WCHAR
+#endif
 
 #if defined( CATCH_CONFIG_WCHAR ) && \
     defined( CATCH_CONFIG_NO_WCHAR )
 #    error Cannot force WCHAR to both ON and OFF
 #endif
 
-
-
-#cmakedefine CATCH_CONFIG_WINDOWS_SEH
-#cmakedefine CATCH_CONFIG_NO_WINDOWS_SEH
+#ifndef CATCH_CONFIG_NO_WINDOWS_SEH
+// #define CATCH_CONFIG_WINDOWS_SEH
+#endif
 
 #if defined( CATCH_CONFIG_WINDOWS_SEH ) && \
     defined( CATCH_CONFIG_NO_WINDOWS_SEH )
 #    error Cannot force WINDOWS_SEH to both ON and OFF
 #endif
 
-
-#cmakedefine CATCH_CONFIG_EXPERIMENTAL_STATIC_ANALYSIS_SUPPORT
-#cmakedefine CATCH_CONFIG_NO_EXPERIMENTAL_STATIC_ANALYSIS_SUPPORT
+#ifndef CATCH_CONFIG_NO_EXPERIMENTAL_STATIC_ANALYSIS_SUPPORT
+// #define CATCH_CONFIG_EXPERIMENTAL_STATIC_ANALYSIS_SUPPORT
+#endif
 
 #if defined( CATCH_CONFIG_EXPERIMENTAL_STATIC_ANALYSIS_SUPPORT ) && \
     defined( CATCH_CONFIG_NO_EXPERIMENTAL_STATIC_ANALYSIS_SUPPORT )
 #    error Cannot force STATIC_ANALYSIS_SUPPORT to both ON and OFF
 #endif
 
-
-#cmakedefine CATCH_CONFIG_USE_BUILTIN_CONSTANT_P
-#cmakedefine CATCH_CONFIG_NO_USE_BUILTIN_CONSTANT_P
+#ifndef CATCH_CONFIG_NO_USE_BUILTIN_CONSTANT_P
+// #define CATCH_CONFIG_USE_BUILTIN_CONSTANT_P
+#endif
 
 #if defined( CATCH_CONFIG_USE_BUILTIN_CONSTANT_P ) && \
     defined( CATCH_CONFIG_NO_USE_BUILTIN_CONSTANT_P )
 #    error Cannot force USE_BUILTIN_CONSTANT_P to both ON and OFF
 #endif
 
-
-#cmakedefine CATCH_CONFIG_DEPRECATION_ANNOTATIONS
-#cmakedefine CATCH_CONFIG_NO_DEPRECATION_ANNOTATIONS
+#ifndef CATCH_CONFIG_NO_DEPRECATION_ANNOTATIONS
+// #define CATCH_CONFIG_DEPRECATION_ANNOTATIONS
+#endif
 
 #if defined( CATCH_CONFIG_DEPRECATION_ANNOTATIONS ) && \
     defined( CATCH_CONFIG_NO_DEPRECATION_ANNOTATIONS )
 #    error Cannot force DEPRECATION_ANNOTATIONS to both ON and OFF
 #endif
 
-
-#cmakedefine CATCH_CONFIG_THREAD_SAFE_ASSERTIONS
-#cmakedefine CATCH_CONFIG_NO_THREAD_SAFE_ASSERTIONS
+#ifndef CATCH_CONFIG_NO_THREAD_SAFE_ASSERTIONS
+// #define CATCH_CONFIG_THREAD_SAFE_ASSERTIONS
+#endif
 
 #if defined( CATCH_CONFIG_THREAD_SAFE_ASSERTIONS ) && \
     defined( CATCH_CONFIG_NO_THREAD_SAFE_ASSERTIONS )
@@ -212,38 +202,50 @@
 // ------
 
 
-#cmakedefine CATCH_CONFIG_BAZEL_SUPPORT
-#cmakedefine CATCH_CONFIG_DISABLE_EXCEPTIONS
-#cmakedefine CATCH_CONFIG_DISABLE_EXCEPTIONS_CUSTOM_HANDLER
-#cmakedefine CATCH_CONFIG_DISABLE
-#cmakedefine CATCH_CONFIG_DISABLE_STRINGIFICATION
-#cmakedefine CATCH_CONFIG_ENABLE_ALL_STRINGMAKERS
-#cmakedefine CATCH_CONFIG_ENABLE_OPTIONAL_STRINGMAKER
-#cmakedefine CATCH_CONFIG_ENABLE_PAIR_STRINGMAKER
-#cmakedefine CATCH_CONFIG_ENABLE_TUPLE_STRINGMAKER
-#cmakedefine CATCH_CONFIG_ENABLE_VARIANT_STRINGMAKER
-#cmakedefine CATCH_CONFIG_EXPERIMENTAL_REDIRECT
-#cmakedefine CATCH_CONFIG_FAST_COMPILE
-#cmakedefine CATCH_CONFIG_NOSTDOUT
-#cmakedefine CATCH_CONFIG_PREFIX_ALL
-#cmakedefine CATCH_CONFIG_PREFIX_MESSAGES
-#cmakedefine CATCH_CONFIG_WINDOWS_CRTDBG
+//#define CATCH_CONFIG_BAZEL_SUPPORT
+//#define CATCH_CONFIG_DISABLE_EXCEPTIONS
+//#define CATCH_CONFIG_DISABLE_EXCEPTIONS_CUSTOM_HANDLER
+//#define CATCH_CONFIG_DISABLE
+//#define CATCH_CONFIG_DISABLE_STRINGIFICATION
+//#define CATCH_CONFIG_ENABLE_ALL_STRINGMAKERS
+//#define CATCH_CONFIG_ENABLE_OPTIONAL_STRINGMAKER
+//#define CATCH_CONFIG_ENABLE_PAIR_STRINGMAKER
+//#define CATCH_CONFIG_ENABLE_TUPLE_STRINGMAKER
+//#define CATCH_CONFIG_ENABLE_VARIANT_STRINGMAKER
+//#define CATCH_CONFIG_EXPERIMENTAL_REDIRECT
+//#define CATCH_CONFIG_FAST_COMPILE
+//#define CATCH_CONFIG_NOSTDOUT
+//#define CATCH_CONFIG_PREFIX_ALL
+//#define CATCH_CONFIG_PREFIX_MESSAGES
+//#define CATCH_CONFIG_WINDOWS_CRTDBG
 
-#cmakedefine CATCH_CONFIG_SHARED_LIBRARY
+//#define CATCH_CONFIG_SHARED_LIBRARY
 
 
 // ------
 // "Variable" defines, these have actual values
 // ------
 
-#define CATCH_CONFIG_DEFAULT_REPORTER "@CATCH_CONFIG_DEFAULT_REPORTER@"
-#define CATCH_CONFIG_CONSOLE_WIDTH @CATCH_CONFIG_CONSOLE_WIDTH@
+#ifndef CATCH_CONFIG_DEFAULT_REPORTER
+#define CATCH_CONFIG_DEFAULT_REPORTER "console"
+#endif
+#ifndef CATCH_CONFIG_CONSOLE_WIDTH
+#define CATCH_CONFIG_CONSOLE_WIDTH 80
+#endif
 
 // Unlike the macros above, CATCH_CONFIG_FALLBACK_STRINGIFIER does not
 // have a good default value, so we cannot always define it, and cannot
 // even expose it as a variable in CMake. The users will have to find
 // out about it from docs and set it only if they use it.
-#cmakedefine CATCH_CONFIG_FALLBACK_STRINGIFIER @CATCH_CONFIG_FALLBACK_STRINGIFIER@
+//#define CATCH_CONFIG_FALLBACK_STRINGIFIER "<fallback>"
 
-#endif // 0
 #endif // CATCH_USER_CONFIG_HPP_INCLUDED
+
+
+
+// BEGIN Include main implementation (@wolfram77)
+#ifdef CATCH2_IMPLEMENTATION
+#include "internal/catch_main.cpp"
+#include "catch_registry_hub.cpp"
+#endif // CATCH2_IMPLEMENTATION
+// END Include main implementation (@wolfram77)

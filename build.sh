@@ -43,12 +43,12 @@ process() {
 
 # Test the project
 test() {
-echo "Running 01-basic-window.c ..."
-clang -I. -I"node_modules/glad.c" -I"node_modules/glfw3.c" -o 01.exe examples/01-basic-window.c  && ./01.exe && echo -e "\n"
-# echo "Running 02-slider-panel.c ..."
-# clang -I. -I"node_modules/glad.c" -I"node_modules/glfw3.c" -o 02.exe examples/02-slider-panel.c  && ./02.exe && echo -e "\n"
-# echo "Running 03-popup-dialog.c ..."
-# clang -I. -I"node_modules/glad.c" -I"node_modules/glfw3.c" -o 03.exe examples/03-popup-dialog.c  && ./03.exe && echo -e "\n"
+echo "Running 010-TestCase.cpp ..."
+clang++ -std=c++17 -I. -o 010.exe examples/010-TestCase.cpp   && ./010.exe && echo -e "\n"
+echo "Running 020-TestCase-1.cpp ..."
+clang++ -std=c++17 -I. -o 020.exe examples/020-TestCase-1.cpp && ./020.exe && echo -e "\n"
+echo "Running 030-TestCase-2.cpp ..."
+clang++ -std=c++17 -I. -o 020.exe examples/020-TestCase-2.cpp && ./020.exe && echo -e "\n"
 }
 
 

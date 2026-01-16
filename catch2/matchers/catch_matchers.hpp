@@ -7,7 +7,6 @@
 #ifndef CATCH_MATCHERS_HPP_INCLUDED
 #define CATCH_MATCHERS_HPP_INCLUDED
 
-#include "internal/catch_matchers_impl.hpp"  // Adjust to relative path (@wolfram77)
 #include "../internal/catch_move_and_forward.hpp"  // Adjust to relative path (@wolfram77)
 #include "../internal/catch_lifetimebound.hpp"  // Adjust to relative path (@wolfram77)
 
@@ -266,6 +265,7 @@ namespace Matchers {
 
 
 // #include "catch_matchers.hpp" // Disable self-include (@wolfram77)  // Adjust to relative path (@wolfram77)
+#include "internal/catch_matchers_impl.hpp"  // Include implementation (@wolfram77)
 
 namespace Catch {
 namespace Matchers {

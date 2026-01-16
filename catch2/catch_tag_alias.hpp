@@ -1,4 +1,3 @@
-
 //              Copyright Catch2 Authors
 // Distributed under the Boost Software License, Version 1.0.
 //   (See accompanying file LICENSE.txt or copy at
@@ -27,3 +26,12 @@ namespace Catch {
 } // end namespace Catch
 
 #endif // CATCH_TAG_ALIAS_HPP_INCLUDED
+
+
+
+// BEGIN Include main implementation (@wolfram77)
+#ifdef CATCH2_IMPLEMENTATION
+#include "internal/catch_main.cpp"
+#include "catch_registry_hub.cpp"
+#endif // CATCH2_IMPLEMENTATION
+// END Include main implementation (@wolfram77)

@@ -1,9 +1,9 @@
 {
   "name": "catch2.cxx",
-  "version": "3.11.1",
+  "version": "3.11.3",
   "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch); Martin Hořeňovský (2010).",
   "keywords": [
-    "c",
+    "c++",
     "library",
     "testing",
     "test-framework",

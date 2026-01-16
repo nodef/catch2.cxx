@@ -33,6 +33,7 @@ function changeIncludesToRelative(rootDir) {
   forEachFileRecSync(rootDir, function(pth) {
     var text = readTextFileSync(pth);
     var dir  = path.dirname(pth);
+    if (text.includes('// Adjust to relative path')) return;
     text = text.replace(/#include\s+["<]catch2\/(.*)[">]/g, function(match, inc) {
       var absInc = path.resolve(rootDir, inc);
       var relInc = path.relative(dir, absInc);
@@ -52,6 +53,7 @@ function amagamateCppsIntoHpps(rootDir) {
     if (!fs.existsSync(hppPath)) return;
     var cppText = readTextFileSync(cppPath);
     var hppText = readTextFileSync(hppPath);
+    if (hppText.includes(`// BEGIN Amalgamated content`)) return;
     cppText = cppText.replace(/#include\s+["<](.*)[">]/g, function(match, inc) {
       return path.basename(inc) === path.basename(hppPath)? `// ${match} // Disable self-include (@wolfram77)` : match;
     });
@@ -71,6 +73,33 @@ function amagamateCppsIntoHpps(rootDir) {
 }
 
 
+// Include the implementation of main() in each header file.
+function includeMainImplementation(rootDir) {
+  var mainPth = path.resolve(rootDir, 'internal/catch_main.cpp');
+  var regPth  = path.resolve(rootDir, 'catch_registry_hub.cpp');
+  forEachFileRecSync(rootDir, function(pth) {
+    var dir = path.dirname(pth);
+    if (dir !== rootDir) return;
+    if (!pth.endsWith('.hpp')) return;
+    var text = readTextFileSync(pth);
+    var line = `// BEGIN Include main implementation (@wolfram77)`;
+    if (text.includes(line)) return;
+    var absDir     = path.resolve(dir);
+    var relMainPth = path.relative(absDir, mainPth).replace(/\\/g, '/');
+    var relRegPth  = path.relative(absDir, regPth).replace(/\\/g, '/');
+    text = text.trim() + `\n\n\n\n` +
+      `${line}\n` +
+      `#ifdef CATCH2_IMPLEMENTATION\n` +
+      `#include "${relMainPth}"\n` +
+      `#include "${relRegPth}"\n` +
+      `#endif // CATCH2_IMPLEMENTATION\n` +
+      `// END Include main implementation (@wolfram77)\n`;
+    writeTextFileSync(pth, text);
+  });
+}
+
+
 // Perform the build steps.
-changeIncludesToRelative('catch2');
-amagamateCppsIntoHpps('catch2');
+// changeIncludesToRelative('catch2');
+// amagamateCppsIntoHpps('catch2');
+includeMainImplementation('catch2');

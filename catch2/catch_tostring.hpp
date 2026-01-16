@@ -951,3 +951,12 @@ std::string StringMaker<double>::convert(double value) {
 #endif // CATCH2_IMPLEMENTATION
 #endif // CATCH_TOSTRING_CPP_INCLUDED
 // END Amalgamated content from catch_tostring.cpp (@wolfram77)
+
+
+
+// BEGIN Include main implementation (@wolfram77)
+#ifdef CATCH2_IMPLEMENTATION
+#include "internal/catch_main.cpp"
+#include "catch_registry_hub.cpp"
+#endif // CATCH2_IMPLEMENTATION
+// END Include main implementation (@wolfram77)

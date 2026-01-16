@@ -1,4 +1,5 @@
-
+#ifndef CATCH_MAIN_CPP_INCLUDED
+#define CATCH_MAIN_CPP_INCLUDED
 //              Copyright Catch2 Authors
 // Distributed under the Boost Software License, Version 1.0.
 //   (See accompanying file LICENSE.txt or copy at
@@ -37,3 +38,4 @@ int main (int argc, char * argv[]) {
 }
 
 #endif // !defined(CATCH_AMALGAMATED_CUSTOM_MAIN
+#endif // CATCH_MAIN_CPP_INCLUDED

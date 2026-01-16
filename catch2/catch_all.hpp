@@ -1,4 +1,3 @@
-
 //              Copyright Catch2 Authors
 // Distributed under the Boost Software License, Version 1.0.
 //   (See accompanying file LICENSE.txt or copy at
@@ -138,3 +137,12 @@
 #include "reporters/catch_reporters_all.hpp"  // Adjust to relative path (@wolfram77)
 
 #endif // CATCH_ALL_HPP_INCLUDED
+
+
+
+// BEGIN Include main implementation (@wolfram77)
+#ifdef CATCH2_IMPLEMENTATION
+#include "internal/catch_main.cpp"
+#include "catch_registry_hub.cpp"
+#endif // CATCH2_IMPLEMENTATION
+// END Include main implementation (@wolfram77)
