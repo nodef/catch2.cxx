@@ -86,42 +86,32 @@ with the `[!benchmark]` tag._
 
 Run:
 
-```sh
+```bash
 $ npm i catch2.cxx
 ```
 
-And then include `catch_all.hpp` as follows:
+And then include `catch2.hpp` as follows:
 
 ```cxx
 // main.cxx
 #define CATCH2_IMPLEMENTATION
-#include "node_modules/catch2.cxx/catch_all.hpp"
+#include <catch2.hpp>  // or, catch2/catch_all.hpp
 
 int main() { /* ... */ }
 ```
 
-And then compile with `clang` or `gcc` as usual.
+Finally, compile while adding the path `node_modules/catch2.cxx` to your compiler's include paths.
 
 ```bash
-$ clang main.cxx  # or, use gcc
-$ gcc   main.cxx
+$ clang++ -std=c++17 -I./node_modules/catch2.cxx main.cxx  # or, use g++
+$ g++     -std=c++17 -I./node_modules/catch2.cxx main.cxx
 ```
 
-You may also use a simpler approach:
-
-```cxx
-// main.cxx
-#define CATCH2_IMPLEMENTATION
-#include <catch2/catch_all.hpp>
-
-int main() { /* ... */ }
-```
-
-If you add the path `node_modules/catch2.cxx` to your compiler's include paths.
+You may also use a simpler approach with the [cpoach](https://www.npmjs.com/package/cpoach.sh) tool, which automatically adds the necessary include paths of all the installed dependencies for your project.
 
 ```bash
-$ clang -I./node_modules/catch2.cxx main.cxx  # or, use gcc
-$ gcc   -I./node_modules/catch2.cxx main.cxx
+$ cpoach clang++ -std=c++17 main.cxx  # or, use g++
+$ cpoach g++     -std=c++17 main.cxx
 ```
 
 <br>
@@ -165,6 +155,7 @@ or [commercially](https://github.com/catchorg/Catch2/blob/devel/docs/commercial-
 <br>
 
 
+[![](https://raw.githubusercontent.com/qb40/designs/gh-pages/0/image/11.png)](https://wolfram77.github.io)<br>
 [![SRC](https://img.shields.io/badge/src-repo-green?logo=Org)](https://github.com/catchorg/Catch2)
 [![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
 ![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/catch2.cxx)
